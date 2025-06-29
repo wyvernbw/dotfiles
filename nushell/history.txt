@@ -1,0 +1,4493 @@
+hx .
+nu config
+config nu
+$env.EDITOR = helix
+$env.EDITOR=helix
+helix $nu.config-path
+hx
+source $nu.config-path
+nu config
+config nu
+hx 
+hx .config/nushell/
+source $nu.config-path
+config nu
+hx .config/ghostty/
+hx .config/ghostty/
+hx .config/hypr/hyprland.conf
+hx .config/helix/
+ls .config/helix/
+hx 
+hx .config/helix/themes/rose_pine_moon_transparent.toml
+exit
+hx .config/hypr/hyprland.conf
+yay -S zoxide fzf 
+yay -S pfetch
+pfetch
+yay -S github-cli
+gh
+git
+yay -S spotify
+hx .config/hypr/hyprland.conf
+ls
+git clone https://github.com/rose-pine/rofi
+rm -rf rofi/
+git clone https://github.com/rose-pine/rofi rose-pine-rofi
+z rose-pine-rofi/
+zoxide init nushell | save -f ~/.zoxide.nu
+source ~/.zoxide.nu
+z rose-pine-rofi/
+cp rose-pine-moon.rasi ~/.config/rofi/config.rasi
+cp -r rose-pine-moon.rasi ~/.config/rofi/config.rasi
+cp -f rose-pine-moon.rasi ~/.config/rofi/config.rasi
+cp --help rose-pine-moon.rasi ~/.config/rofi/config.rasi
+mkdir ~/.config/rofi/
+cp rose-pine-moon.rasi ~/.config/rofi/config.rasi
+z ..
+hx .config/hypr/hyprland.conf
+hx .config/ghostty/
+y
+yazy
+config nu
+source $nu.config-path
+y
+sudo y
+sudo yazi
+hyprpanel q
+hyprpanel 
+hx .config/rofi/
+yay -S steam
+hx /etc/pacman.conf
+sudo hx /etc/pacman.conf
+sudo helix /etc/pacman.conf
+pacman -Syu
+sudo pacman -Syu
+yay -S steam
+polkit
+sudo pacman -S polkit
+yay -S hyprpolkitagent
+hx .config/hypr/hyprland.conf
+yay -S nautilus
+nautilus
+hx .config/hypr/hyprland.conf
+z /hdd
+config nu
+source $nu.config-path
+z /hdd
+z /mnt/
+ls
+z ..
+ls
+ls mnt
+lsblk
+z sda1
+z /sda1
+df -h
+z /dev/sda1
+cd /dev/sda1
+sudo mkdir mnt/hdd/
+sudo mount /dev/sda1 /mnt/hdd
+ls -l /dev/sda1
+sudo fdisk -l /dev/sda
+sudo ntfsfix /dev/sda1
+sudo blkid /dev/sda1
+sudo mount -t ntfs /dev/sda1 /mnt/hdd
+mount /dev/sda1 /mnt/hdd
+sudo umount /dev/sda1
+sudo mount -t ntfs /dev/sda1 /mnt/hdd
+sudo blkid /dev/sda2
+sudo blkid /dev/sdb
+sudo blkid /dev/sdb2
+ls -l /dev/sdb2
+df -h
+sudo unmount /dev/sdb2
+sudo umount /dev/sdb2
+mkdir /mnt/ssd2
+sudo mkdir /mnt/ssd2
+sudo mount /dev/sdb2 /mnt/ssd2
+z mnt
+z hdd/
+ls
+z ..
+sudo nautilus
+sudo chown -R $env.USER:$env.USER /mnt/hdd
+watch -n 1 'du -sh /mnt/hdd'
+watch  'du -sh /mnt/hdd'
+watch 'du -sh /mnt/hdd'
+^watch -n 1 'du -sh /mnt/hdd'
+sudo chown -R calinp:calinp /mnt/hdd
+udiskctl
+umount /dev/sda1
+sudo umount /dev/sda1
+fstab --help
+fstab
+fdisk -l
+sudo fdisk -l
+ls
+sudo fdisk -l
+hx .config/hypr/hyprland.conf
+hx ~/.config/hypr/hyprland.conf
+hx /etc/fstab
+sudo /etc/fstab
+sudo helix /etc/fstab
+mount -a
+systemctl daemon-reload
+mount -a
+umount /dev/sda1
+lsblk -f
+sudo helix /etc/fstab
+mount -a
+systemctl daemon-reload
+mount -a
+sudo helix /etc/fstab
+systemctl daemon-reload
+mount -a
+sudo mount -a
+sudo unmount /dev/sdb2
+sudo umount /dev/sdb2
+sudo helix /etc/fstab
+systemctl daemon-reload
+mount -a
+sudo mount -a
+ls /mnt
+sudo helix /etc/fstab
+systemctl daemon-reload
+sudo mount -a
+cat /etc/group
+sudo chown -R calinp /mnt/ssd2/
+sudo chown -R calinp:calinp /mnt/ssd2/
+sudo chown -R calinp /mnt/hdd/
+ntfs-3g
+z ..
+sudo yazi
+z mnt/hdd
+ls
+z SteamLibrary/
+ls
+sudo rm -r * 
+sudo rm --progress -r * 
+sudo rm --help -r * 
+sudo rm -r * 
+hx /etc/fstab
+sudo helix /etc/fstab
+sudo pacman -S ntfs-3g
+sudo hx /etc/fstab
+sudo helix /etc/fstab
+sudo umount /dev/sdb2
+sudo umount /dev/sda1
+htop
+yay -S btop
+btop
+sudo umount /dev/sda1
+sudo mount -a
+systemctl daemon-reload
+sudo mount -a
+sudo helix /etc/fstab
+sudo mount -a
+sudo unmount /dev/sdb2
+sudo umount /dev/sdb2
+sudo umount /dev/sda1
+systemctl daemon-reload
+sudo mount -a
+sudo umount /dev/sda1
+sudo umount /dev/sdb2
+sudo helix /etc/fstab
+poweroff 
+sudo helix /etc/fstab
+sudo mount -a
+systemctl daemon-reload
+sudo mount -a
+sudo umount /dev/sdb2
+sudo mount -a
+id
+mount
+mount | rg ntfs
+ntfsfix
+ntfsfix /dev/sda1
+sudo umount /dev/sda1
+sudo umount /dev/sdb2
+sudo ntfsfix /dev/sdb2
+mount -a
+sudo mount -a
+dmesg | tail -n 20
+sudo dmesg | tail -n 20
+sudo dmesg | tail -n 40
+sudo dmesg | tail -n 60 | rg ntfs
+sudo dmesg | tail -n 60
+z mnt/hdd
+ls
+touch test.txt
+sudo touch test.txt
+ls
+ls -ld .
+ls -ld /mnt/hdd/
+id
+hx /etc/fstab
+sudo helix /etc/fstab
+hx ~/.config/hypr/hyprland.conf
+btop
+tuned
+tlp
+sudo pacman -S power-profiles-daemon
+systemctl start power-profiles-daemon
+powerprofilesctl --help
+powerprofilesctl list
+powerprofilesctl set balanced
+btop
+nvidia-smi
+nvidia-settings
+sudo pacman -S nvidia-settings
+nvidia-settings --help
+sudo nvidia-settings --assign [gpu:0]/GPUFanControlState=1
+sudo nvidia-settings
+pacman -S nvidia-driver nvidia-xconfig nvidia-settings 
+sudo pacman -S nvidia-driver nvidia-xconfig nvidia-settings 
+<\n>nvidia-settings --rewrite-config-file
+;s
+ls
+ls -a
+nvidia-settings --rewrite-config-file
+ls
+ls -a
+touch ~/.nvidia-settings-rc 
+nvidia-settings --rewrite-config-file
+hx ~/.nvidia-settings-rc
+sudo nvidia-settings --rewrite-config-file
+sudo pacman -S nvidia-utils
+sudo pacman -S lib32-nvidia-utils
+sudo nvidia-settings
+sudo nvidia-settings --help
+echo $env.DISPLAY
+sudo nvidia-settings -c :0
+xorg
+yay -S vesktop
+pfetch
+clear
+pfetch
+godot-3.6
+./godot-3.6.64
+ls
+mkdir godot
+mv godot-3.6.64 godot/godot-3.6.64
+ls godot
+config nu
+source $nu.config-path
+cargo
+ls
+ls -a
+config nu
+source $nu.config-path
+godot-3.6
+godot-3.6.64
+hx ~/.config/hypr/hyprland.conf
+update-desktop-database
+hyprland reload
+hyprland 
+hyprctl reload
+godot-3.6.64
+chsh -s nu
+which nu
+chsh -s /sbin/nu
+sudoedit
+sudoedit /etc/shells
+sudo update-alternatives --config editor
+sudo helix /etc/shells
+chsh -s /sbin/nu
+z ssd2
+z /mnt/ssd2/
+ls
+z wyvern
+ls
+z windlight
+ls
+godot-3.6
+godot-3.6.64
+godot-3.6.64 
+z windlight
+git status
+git diff
+less
+yay -S less
+git diff
+yay -S sccache
+which sccache
+hx ~/.cargo/config.toml
+yay -S mold
+hx ~/.cargo/config.toml
+cargo build-linux
+cargo build-unix
+rustup target add i686-unknown-linux-gnu
+cargo clean
+cargo build-unix
+ls
+y
+cargo build-unix
+hx Cargo.toml
+cargo build-unix
+config nu
+cargo build-unix
+source $nu.config-path
+cargo build-unix
+godot-3.6
+mv ~/godot/godot-3.6.64 ~/godot/godot-3.6
+config nu
+source $nu.config-path
+cargo build-unix
+clang
+pacman -S libclang
+sudo pacman -S libclang
+sudo pacman -S clang
+cargo build-unix
+hx ~/.config/hypr/hyprland.conf
+godot-3.6
+ls
+ls gdnative
+hx Cargo.toml
+cargo clean
+cargo build-unix
+cargo clean
+ls target
+ls
+cargo build-unix
+hx Cargo.toml
+ls .config
+ls .cargo/
+cargo binstall 
+cargo binstall bat
+bat .cargo/config.toml
+cat .cargo/config.toml
+cat rust-toolchain.toml
+cargo clean
+cargo build-unix
+cargo build-unix 
+cargo clean
+godot-3.6
+z gdnative/
+ls
+git status
+z gdnative/
+git status
+z ..
+git status
+git diff
+hx gdnative-core/
+hx .
+z ..
+ls
+cargo build-unix 
+hx .
+z gdnative/
+hx .
+RUST_BACKTRACE=1 godot-3.6
+cargo clean
+z ..
+cargo clean
+cargo build-unix --release
+godot-3.6
+clear
+godot-3.6
+git status
+git reset --hard
+godot-3.6
+hx .
+y
+cargo build-unix --release
+nvidia-smi
+sudo helix --config
+sudo helix --config ~/.config/helix/config.toml
+sudo helix --config ~/.config/helix/
+sudo helix --config ~/.config/helix/config.toml
+sudo helix /etc/X11/xorg.conf.d/
+yay -S gwe
+hello
+clear
+ls
+gh repo clone edigooner
+gh auth login
+gh repo clone edigooner
+z edigooner/
+mold
+cargo run 
+cargo clean
+yay -S hyperfine
+hyperfine --show-output --num_runs 1
+hyperfine --show-output --runs
+hyperfine --show-output --runs 1 cargo build
+hyperfine --show-output --runs 1 "cargo build"
+cargo clean
+ls .cargo/
+cp .cargo/config_fast_builds.toml .cargo/config.toml
+hx .cargo/
+cargo clean
+hyperfine --show-output --runs 1 "cargo build"
+cargo run
+sudo pacman -S bluez bluez-utils bluez-deprecated-tools
+sudo pacman -S bluez-obex
+lsmod 
+lsmod | rg btusb
+systemctl start bluetooth.service
+yay -S bluetui
+bluetui
+yay -S nautilus bluetooth
+yay -S nautilus-bluetooth
+bluetui
+yay -S blender obsidian
+yay -Syu
+yay -S blender obsidian
+yay -S obsidian
+z /mnt/ssd2/wyvern/windlight-animations/
+ls
+z scripts/windlight-render-pipeline/
+ls
+z ..
+z ~
+gh repo clone wyrdir
+z wyrdir/
+ls
+git pull --recurse-submodules
+ls wl-render-2/
+z wl-render-2/
+ls
+z ..
+git init-submodules
+git pull --init-submodules
+git submodule update --init --recursive
+ssh-keygen -t ed25519 -C "iamwyvern511@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add
+^eval "$(ssh-agent -s)"
+bash
+ssh-add
+ssh-agent --help
+ssh-agent -c
+ls ~/.ssh/
+ssh-add ~/.ssh/id_ed25519
+config nu
+source $nu.config-path
+config nu
+source $nu.config-path
+ssh-add ~/.ssh/id_ed25519
+yay -S bat
+bat
+bat .cargo/config.toml
+bat Cargo.toml
+bat ~/.ssh/id_ed25519
+bat ~/.ssh/id_ed25519.pub
+bat --help ~/.ssh/id_ed25519.pub
+bat -p ~/.ssh/id_ed25519.pub
+git submodule update --init --recursive
+ssh -T git@github.com
+ls ~/.ssh/
+git config --global core.sshCommand 'ssh -i ~/.ssh/id_ed25519'
+git submodule update --init --recursive
+gh config set git_protocol ssh
+z ..
+rm -rf wyrdir/
+gh repo clone wyrdir
+z wyrdir/
+git submodule update --init --recursive
+git remote
+git remote -v
+z wl-render-2/
+ls
+z ..
+ls
+ls -a
+hx .gitmodules
+ls
+git status
+git submodule update --init --recursive
+gh config set git_protocol 
+gh config set git_protocol --help
+gh config set git_protocol git
+gh config set git_protocol https
+z ..
+rm -rf wyrdir/
+gh repo clone wyrdir
+z wyrdir/
+ls
+git submodule update --init --recursive
+gh auth
+gh auth setup-git
+git submodule update --init --recursive
+z ..
+git status
+z wyrdir/
+cargo install --path wyrdir-cli/
+wyrdir-cli
+config nu
+source $nu.config-path
+wyrdir-cli
+yay -S noto-fonts-cjk
+z ..
+hx .config/user-dirs.dirs
+sudo yazi
+sudo pacman -S noto-sans-emoji
+sudo pacman -S noto-fonts-emoji
+yay -S gnome-disk-utility
+yay -S starship
+config nu
+source $nu.config-path
+yay -S cascadeur
+ls -l /sbin
+ls -l /usr/sbin
+ls .config/nushell/
+touch .config/nushell/fzf.nu
+hx .config/nushell/fzf.nu
+config nu
+source $nu.config-path
+config nu
+hx .config/nushell/config.nu
+helix .config/nushell/config.nu
+yay -R helix
+cargo binstall helix
+cargo install helix
+cargo install helix-term
+cargo install helix -p helix-term
+cargo install --help
+cargo install --bin helix-term helix
+helix 
+vi
+vim
+vim .config/nushell/config.nu
+clear
+vim .config/ghostty/config
+exit
+yay -S helix-git
+clear
+helix
+hx
+source $nu.config-path
+hx .
+hx .config/nushell/config.nu
+echo $nu.user-autoload-dirs
+hx .
+hx .config/nushell/config.nu
+source $nu.config-path
+fzf
+hx .config/nushell/fzf.nu
+source $nu.config-path
+hx .config/nushell/config.nu
+fd
+yay -S fd
+sudo pacman -S fd
+source $nu.config-path
+$env.FZF_CTRL_T_COMMAND
+hx .config/nushell/config.nu
+vim .config/nushell/config.nu
+source $nu.config-path
+hx .config/nushell/config.nu
+hx
+hx .config/nushell/config.nu
+source $nu.config-path
+hx .config/nushell/config.nu
+source $nu.config-path
+hx .config/nushell/config.nu
+source $nu.config-path
+clear
+hx .config/nushell/config.nu
+source $nu.config-path
+hx .config/nushell/fzf.nu
+hx .config/nushell/config.nu
+source $nu.config-path
+hx .config/nushell/config.nu
+source $nu.config-path
+hx .config/nushell/config.nu
+source $nu.config-path
+mv -r /mnt/hdd/Downloads/cascadeur-linux ~/.local/bin/cascadeur
+mv -p /mnt/hdd/Downloads/cascadeur-linux ~/.local/bin/cascadeur
+mv -p -f /mnt/hdd/Downloads/cascadeur-linux ~/.local/bin/cascadeur
+mkdir ~/.local/bin/
+mv -p -f /mnt/hdd/Downloads/cascadeur-linux ~/.local/bin/cascadeur
+sudo mv -p -f /mnt/hdd/Downloads/cascadeur-linux ~/.local/bin/cascadeur
+sudo mv -p /mnt/hdd/Downloads/cascadeur-linux ~/.local/bin/cascadeur
+sudo mv /mnt/hdd/Downloads/cascadeur-linux ~/.local/bin/cascadeur
+cascadeur
+ls .local/
+ls .local/bin
+sudo mv .local/bin/cascadeur ~/bin/cascadeur
+mkdir ~/bin/
+sudo mv .local/bin/cascadeur ~/bin/cascadeur
+ls bin/cascadeur/
+$env | reject config | transpose key val | each {|r| echo $"$env.($r.key) = '($r.val)'"} | str join (char nl)
+sudo hx /etc/shells
+which nu
+chsh -s /sbin/nu
+echo $env.loginshell-path
+echo $nu.loginshell-path
+touch .config/nushell/login.nu
+hx .config/nushell/login.nu
+cascadeur
+hx .config/nushell/login.nu
+cascadeur
+echo $env.PATH
+echo $env.SHELL
+echo $nu.is_login
+echo $nu.is-login
+chsh --help
+chsh -l
+man cshsh
+sudo pacman -S man
+yay -S man
+chsh -s "$(which nu)"
+which nu
+sudo chsh -s /sbin/nu
+which bash
+sudo chsh -s /sbin/bash
+sudo chsh -s /bin/bash
+chsh -s /bin/nu
+echo $env.PATH
+cascadeur
+echo $nu.is-login
+which nushell
+nushell
+which nuj
+which nu
+echo $nu.is-login
+echo $env.PATH
+hx .config/nushell/login.nu
+echo $env.PATH
+hx .config/nushell/login.nu
+cascadeur
+sudo pacman -S onnxruntime
+cascadeur
+libonnxruntime.so
+cascadeur
+hx .config/nushell/config.nu
+source $nu.config-path
+cascadeur
+echo $env.PATH
+export LD_LIBRARY_PATH=/home/calinp/bin/cascadeur/cascadeur-linux/lib:$LD_LIBRARY_PATH<\n>/home/calinp/bin/cascadeur/cascadeur<\n>
+config nu
+hx .config/nushell/config.nu
+source $nu.config-path
+hx .config/nushell/config.nu
+source $nu.config-path
+hx .config/nushell/config.nu
+source $nu.config-path
+echo $env.LD_LIBRARY_PATH
+hx .config/nushell/config.nu
+source $nu.config-path
+echo $env.LD_LIBRARY_PATH
+cascadeur
+hx .config/nushell/config.nu
+ldd /home/calinp/bin/cascadeur/cascadeur
+hx .
+config nu
+source $nu.config-path
+ldd /home/calinp/bin/cascadeur/cascadeur
+cascadeur
+python
+hx .
+config nu
+patchelf
+sudo pacman -S patchelf
+patchefl
+patchelf
+patchelf --set-rpath
+man patchelf
+sudo pacman -S man
+man
+man patchelf
+hx .
+hx .config/nushell/config.nu
+yay -S nuformat
+hx .config/nushell/config.nu
+source $nu.config-path
+yay -S nuformat
+yay
+echo $env.LD_LIBRARY_PATH
+yay
+clear
+yay -S nuformat
+yay -S nufmt
+cargo install --git https://github.com/nushell/nufmt
+hx --health nu
+nufmt
+touch .config/helix/languages.toml
+hx .config/helix/languages.toml
+hx --health nu
+hx ~/.config/nushell/config.nu
+source $nu.config-path
+hx ~/.config/nushell/config.nu
+source $nu.config-path
+hx ~/.config/nushell/config.nu
+source $nu.config-path
+config nu
+helix .config/helix/languages.toml
+hx .config/helix/languages.toml
+hx .config/nushell/config.nu
+source $nu.config-path
+echo $env.LD_LIBRARY_PATH
+cascadeur
+find /home/calinp/bin/cascadeur/cascadeur-linux/lib -type d | paste -sd:<\n>
+find /home/calinp/bin/cascadeur/cascadeur-linux/lib | paste -sd:<\n>
+bash
+patchelf --set-rpath "/home/calinp/bin/cascadeur/:/home/calinp/bin/cascadeur/plugins:/home/calinp/bin/cascadeur/plugins/xcbglintegrations:/home/calinp/bin/cascadeur/plugins/imageformats:/home/calinp/bin/cascadeur/plugins/tls:/home/calinp/bin/cascadeur/plugins/platforms:/home/calinp/bin/cascadeur/plugins/multimedia:/home/calinp/bin/cascadeur/csc-lib:/home/calinp/bin/cascadeur/cascadeur-linux:/home/calinp/bin/cascadeur/cascadeur-linux/plugins:/home/calinp/bin/cascadeur/cascadeur-linux/plugins/xcbglintegrations:/home/calinp/bin/cascadeur/cascadeur-linux/plugins/imageformats:/home/calinp/bin/cascadeur/cascadeur-linux/plugins/tls:/home/calinp/bin/cascadeur/cascadeur-linux/plugins/platforms:/home/calinp/bin/cascadeur/cascadeur-linux/plugins/multimedia:/home/calinp/bin/cascadeur/cascadeur-linux/csc-lib:/home/calinp/bin/cascadeur/cascadeur-linux/qml:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQml:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQml/Base:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQml/XmlListModel:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQml/WorkerScript:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQml/Models:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Dialogs:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Dialogs/quickimpl:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Dialogs/quickimpl/qml:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Dialogs/quickimpl/qml/+Material:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Dialogs/quickimpl/qml/+Imagine:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Dialogs/quickimpl/qml/+Fusion:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Dialogs/quickimpl/qml/+Universal:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Layouts:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/LocalStorage:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Shapes:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Effects:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/tooling:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Templates:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Window:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Particles:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/NativeStyle:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/NativeStyle/controls:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Fusion:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Fusion/impl:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Universal:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Universal/impl:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Material:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Material/impl:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/impl:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/designer:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/designer/images:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Imagine:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Imagine/impl:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Basic:/home/calinp/bin/cascadeur/cascadeur-linux/qml/QtQuick/Controls/Basic/impl:/home/calinp/bin/cascadeur/cascadeur-linux/qml/Qt5Compat:/home/calinp/bin/cascadeur/cascadeur-linux/qml/Qt5Compat/GraphicalEffects:/home/calinp/bin/cascadeur/cascadeur-linux/qml/Qt5Compat/GraphicalEffects/private:/home/calinp/bin/cascadeur/cascadeur-linux/qml/Qt:/home/calinp/bin/cascadeur/cascadeur-linux/qml/Qt/labs:/home/calinp/bin/cascadeur/cascadeur-linux/qml/Qt/labs/settings:/home/calinp/bin/cascadeur/cascadeur-linux/qml/Qt/labs/folderlistmodel:/home/calinp/bin/cascadeur/cascadeur-linux/qml/Qt/labs/platform:/home/calinp/bin/cascadeur/cascadeur-linux/licenses:/home/calinp/bin/cascadeur/cascadeur-linux/lib:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdShade:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdShade/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdShade/resources/usdShade:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdGeom:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdGeom/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdGeom/resources/usdGeom:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdRender:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdRender/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdRender/resources/usdRender:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdRi:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdRi/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdRi/resources/usdRi:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdSkel:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdSkel/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdSkel/resources/usdSkel:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdPhysics:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdPhysics/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdPhysics/resources/usdPhysics:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdMedia:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdMedia/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdMedia/resources/usdMedia:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/ar:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/ar/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdVol:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdVol/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdVol/resources/usdVol:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdUI:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdUI/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdUI/resources/usdUI:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usd:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usd/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usd/resources/codegenTemplates:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usd/resources/usd:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdProc:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdProc/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdProc/resources/usdProc:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/sdf:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/sdf/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdHydra:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdHydra/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdHydra/resources/shaders:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdHydra/resources/usdHydra:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/ndr:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/ndr/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdLux:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdLux/resources:/home/calinp/bin/cascadeur/cascadeur-linux/lib/usd/usdLux/resources/usdLux:/home/calinp/bin/cascadeur/cascadeur-linux/usd:/home/calinp/bin/cascadeur/cascadeur-linux/resources:/home/calinp/bin/cascadeur/cascadeur-linux/resources/shaders:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python_api_doc:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python_api_doc/source:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/test_data:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/test_data/casc:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/test_data/rig:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/test_data/fbx:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/test_data/parts:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts/spline helpers:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts/constraints:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts/constraints/separate_object:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts/3d node:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts/points:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts/points/ik fk:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts/points/triangles:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts/objects:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/parts/boxes:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/general:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/datatypes:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/datatypes/scene_elements:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/datatypes/scene_elements/objects:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/datatypes/update_datas:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/datatypes/update_datas/extra_nodes:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/datatypes/update_datas/extra_nodes/proxies:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/datatypes/update_datas/extra_nodes/behaviour_utils:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/datatypes/update_datas/attributes:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/pycsc/datatypes/update_datas/nodes:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/ml:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/common:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_gen:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_gen/connect_systems:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_gen/common_methods:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_gen/connection_objects:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_gen/basic_objects:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_gen/basic_objects/rigid_bodies:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_gen/basic_objects/points:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_gen/basic_objects/boxes:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_gen/rig_context_gen:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/events:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/events/scene_created:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/events/scene_saved:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/events/scene_before_removed:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/events/scene_opened:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/events/scene_activated:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/events/scene_removed:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/test:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/test/application_test_cases:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/test/rig_scenarios:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/test/test_cases:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/test/cpp:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/fbx_import:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/delete_actions:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/rigs:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/rigs/qrt:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/rigs/qrt/biped:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/rig_joint_actions:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/collision_actions:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/json_actions:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/units:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/add_rig_elements_actions:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/qrt_prototypes:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/hinge_actions:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/mirror_actions:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/main_actions:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/main_actions/operators:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/struct_action:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/prototypes_common:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/prototypes/additional_actions:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/rig_mode:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/add_function:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/add:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/collision:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/rig_info:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/transform:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/quick_export:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/copy_paste_objects:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/rig_additional:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/rig_additional/ra_samples:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/rig_additional/ra_samples/util_scripts:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/center_of_mass:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/animation_scripts:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/constrain:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/custom_export:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/custom_export/tracks_hierarchy:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/commands/debug:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/inner_scripts:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/libs:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/dbg:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/dbg/Loger:/home/calinp/bin/cascadeur/cascadeur-linux/resources/scripts/python/samples:/home/calinp/bin/cascadeur/cascadeur-linux/resources/fonts:/home/calinp/bin/cascadeur/cascadeur-linux/resources/autorig_templates:/home/calinp/bin/cascadeur/cascadeur-linux/python:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/bin:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy-1.25.0.dist-info:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy.libs:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/_utils:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/_utils/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/polynomial:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/polynomial/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/polynomial/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/polynomial/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/matrixlib:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/matrixlib/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/matrixlib/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/matrixlib/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/doc:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/doc/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing/tests/data:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing/tests/data/fail:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing/tests/data/pass:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing/tests/data/pass/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing/tests/data/misc:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing/tests/data/reveal:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/typing/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/_typing:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/_typing/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/_examples:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/_examples/numba:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/_examples/numba/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/_examples/cython:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/_examples/cython/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/_examples/cffi:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/_examples/cffi/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/lib:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/tests/data:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/tests/data/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/random/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/src:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/abstract_interface:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/block_docstring:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/quoted_character:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/return_logical:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/common:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/array_from_pyobj:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/return_real:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/mixed:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/crackfortran:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/assumed_shape:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/return_integer:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/kind:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/callback:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/cli:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/negative_bounds:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/value_attrspec:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/module_data:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/f2cmap:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/return_character:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/parameter:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/regression:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/string:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/size:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/src/return_complex:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/f2py/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils/command:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils/command/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils/checks:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils/fcompiler:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils/fcompiler/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/distutils/mingw:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/lib:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/lib/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/lib/tests/data:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/lib/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/lib/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/ma:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/ma/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/ma/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/ma/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/_pyinstaller:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/_pyinstaller/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/linalg:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/linalg/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/linalg/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/linalg/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/array_api:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/array_api/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/array_api/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/array_api/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/lib:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/lib/npy-pkg-config:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/tests/examples:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/tests/examples/cython:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/tests/examples/cython/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/tests/examples/limited_api:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/tests/examples/limited_api/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/tests/data:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/include:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/include/numpy:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/include/numpy/random:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/include/numpy/libdivide:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/core/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/compat:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/compat/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/compat/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/compat/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/fft:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/fft/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/fft/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/fft/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/testing:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/testing/_private:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/testing/_private/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/testing/tests:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/testing/tests/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/modules/numpy/testing/__pycache__:/home/calinp/bin/cascadeur/cascadeur-linux/python/lib:/home/calinp/bin/cascadeur/cascadeur-linux/python/lib-dynload:/home/calinp/bin/cascadeur/cascadeur-linux/samples:/home/calinp/bin/cascadeur/qml:/home/calinp/bin/cascadeur/qml/QtQml:/home/calinp/bin/cascadeur/qml/QtQml/Base:/home/calinp/bin/cascadeur/qml/QtQml/XmlListModel:/home/calinp/bin/cascadeur/qml/QtQml/WorkerScript:/home/calinp/bin/cascadeur/qml/QtQml/Models:/home/calinp/bin/cascadeur/qml/QtQuick:/home/calinp/bin/cascadeur/qml/QtQuick/Dialogs:/home/calinp/bin/cascadeur/qml/QtQuick/Dialogs/quickimpl:/home/calinp/bin/cascadeur/qml/QtQuick/Dialogs/quickimpl/qml:/home/calinp/bin/cascadeur/qml/QtQuick/Dialogs/quickimpl/qml/+Material:/home/calinp/bin/cascadeur/qml/QtQuick/Dialogs/quickimpl/qml/+Imagine:/home/calinp/bin/cascadeur/qml/QtQuick/Dialogs/quickimpl/qml/+Fusion:/home/calinp/bin/cascadeur/qml/QtQuick/Dialogs/quickimpl/qml/+Universal:/home/calinp/bin/cascadeur/qml/QtQuick/Layouts:/home/calinp/bin/cascadeur/qml/QtQuick/LocalStorage:/home/calinp/bin/cascadeur/qml/QtQuick/Shapes:/home/calinp/bin/cascadeur/qml/QtQuick/Effects:/home/calinp/bin/cascadeur/qml/QtQuick/tooling:/home/calinp/bin/cascadeur/qml/QtQuick/Templates:/home/calinp/bin/cascadeur/qml/QtQuick/Window:/home/calinp/bin/cascadeur/qml/QtQuick/Particles:/home/calinp/bin/cascadeur/qml/QtQuick/NativeStyle:/home/calinp/bin/cascadeur/qml/QtQuick/NativeStyle/controls:/home/calinp/bin/cascadeur/qml/QtQuick/Controls:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Fusion:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Fusion/impl:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Universal:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Universal/impl:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Material:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Material/impl:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/impl:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/designer:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/designer/images:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Imagine:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Imagine/impl:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Basic:/home/calinp/bin/cascadeur/qml/QtQuick/Controls/Basic/impl:/home/calinp/bin/cascadeur/qml/Qt5Compat:/home/calinp/bin/cascadeur/qml/Qt5Compat/GraphicalEffects:/home/calinp/bin/cascadeur/qml/Qt5Compat/GraphicalEffects/private:/home/calinp/bin/cascadeur/qml/Qt:/home/calinp/bin/cascadeur/qml/Qt/labs:/home/calinp/bin/cascadeur/qml/Qt/labs/settings:/home/calinp/bin/cascadeur/qml/Qt/labs/folderlistmodel:/home/calinp/bin/cascadeur/qml/Qt/labs/platform:/home/calinp/bin/cascadeur/licenses:/home/calinp/bin/cascadeur/lib:/home/calinp/bin/cascadeur/lib/usd:/home/calinp/bin/cascadeur/lib/usd/usdShade:/home/calinp/bin/cascadeur/lib/usd/usdShade/resources:/home/calinp/bin/cascadeur/lib/usd/usdShade/resources/usdShade:/home/calinp/bin/cascadeur/lib/usd/usdGeom:/home/calinp/bin/cascadeur/lib/usd/usdGeom/resources:/home/calinp/bin/cascadeur/lib/usd/usdGeom/resources/usdGeom:/home/calinp/bin/cascadeur/lib/usd/usdRender:/home/calinp/bin/cascadeur/lib/usd/usdRender/resources:/home/calinp/bin/cascadeur/lib/usd/usdRender/resources/usdRender:/home/calinp/bin/cascadeur/lib/usd/usdRi:/home/calinp/bin/cascadeur/lib/usd/usdRi/resources:/home/calinp/bin/cascadeur/lib/usd/usdRi/resources/usdRi:/home/calinp/bin/cascadeur/lib/usd/usdSkel:/home/calinp/bin/cascadeur/lib/usd/usdSkel/resources:/home/calinp/bin/cascadeur/lib/usd/usdSkel/resources/usdSkel:/home/calinp/bin/cascadeur/lib/usd/usdPhysics:/home/calinp/bin/cascadeur/lib/usd/usdPhysics/resources:/home/calinp/bin/cascadeur/lib/usd/usdPhysics/resources/usdPhysics:/home/calinp/bin/cascadeur/lib/usd/usdMedia:/home/calinp/bin/cascadeur/lib/usd/usdMedia/resources:/home/calinp/bin/cascadeur/lib/usd/usdMedia/resources/usdMedia:/home/calinp/bin/cascadeur/lib/usd/ar:/home/calinp/bin/cascadeur/lib/usd/ar/resources:/home/calinp/bin/cascadeur/lib/usd/usdVol:/home/calinp/bin/cascadeur/lib/usd/usdVol/resources:/home/calinp/bin/cascadeur/lib/usd/usdVol/resources/usdVol:/home/calinp/bin/cascadeur/lib/usd/usdUI:/home/calinp/bin/cascadeur/lib/usd/usdUI/resources:/home/calinp/bin/cascadeur/lib/usd/usdUI/resources/usdUI:/home/calinp/bin/cascadeur/lib/usd/usd:/home/calinp/bin/cascadeur/lib/usd/usd/resources:/home/calinp/bin/cascadeur/lib/usd/usd/resources/codegenTemplates:/home/calinp/bin/cascadeur/lib/usd/usd/resources/usd:/home/calinp/bin/cascadeur/lib/usd/usdProc:/home/calinp/bin/cascadeur/lib/usd/usdProc/resources:/home/calinp/bin/cascadeur/lib/usd/usdProc/resources/usdProc:/home/calinp/bin/cascadeur/lib/usd/sdf:/home/calinp/bin/cascadeur/lib/usd/sdf/resources:/home/calinp/bin/cascadeur/lib/usd/usdHydra:/home/calinp/bin/cascadeur/lib/usd/usdHydra/resources:/home/calinp/bin/cascadeur/lib/usd/usdHydra/resources/shaders:/home/calinp/bin/cascadeur/lib/usd/usdHydra/resources/usdHydra:/home/calinp/bin/cascadeur/lib/usd/ndr:/home/calinp/bin/cascadeur/lib/usd/ndr/resources:/home/calinp/bin/cascadeur/lib/usd/usdLux:/home/calinp/bin/cascadeur/lib/usd/usdLux/resources:/home/calinp/bin/cascadeur/lib/usd/usdLux/resources/usdLux:/home/calinp/bin/cascadeur/usd:/home/calinp/bin/cascadeur/resources:/home/calinp/bin/cascadeur/resources/shaders:/home/calinp/bin/cascadeur/resources/scripts:/home/calinp/bin/cascadeur/resources/scripts/python_api_doc:/home/calinp/bin/cascadeur/resources/scripts/python_api_doc/source:/home/calinp/bin/cascadeur/resources/scripts/test_data:/home/calinp/bin/cascadeur/resources/scripts/test_data/casc:/home/calinp/bin/cascadeur/resources/scripts/test_data/rig:/home/calinp/bin/cascadeur/resources/scripts/test_data/fbx:/home/calinp/bin/cascadeur/resources/scripts/test_data/parts:/home/calinp/bin/cascadeur/resources/scripts/parts:/home/calinp/bin/cascadeur/resources/scripts/parts/spline helpers:/home/calinp/bin/cascadeur/resources/scripts/parts/constraints:/home/calinp/bin/cascadeur/resources/scripts/parts/constraints/separate_object:/home/calinp/bin/cascadeur/resources/scripts/parts/3d node:/home/calinp/bin/cascadeur/resources/scripts/parts/points:/home/calinp/bin/cascadeur/resources/scripts/parts/points/ik fk:/home/calinp/bin/cascadeur/resources/scripts/parts/points/triangles:/home/calinp/bin/cascadeur/resources/scripts/parts/objects:/home/calinp/bin/cascadeur/resources/scripts/parts/boxes:/home/calinp/bin/cascadeur/resources/scripts/python:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/general:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/datatypes:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/datatypes/scene_elements:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/datatypes/scene_elements/objects:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/datatypes/update_datas:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/datatypes/update_datas/extra_nodes:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/datatypes/update_datas/extra_nodes/proxies:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/datatypes/update_datas/extra_nodes/behaviour_utils:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/datatypes/update_datas/attributes:/home/calinp/bin/cascadeur/resources/scripts/python/pycsc/datatypes/update_datas/nodes:/home/calinp/bin/cascadeur/resources/scripts/python/ml:/home/calinp/bin/cascadeur/resources/scripts/python/common:/home/calinp/bin/cascadeur/resources/scripts/python/rig_gen:/home/calinp/bin/cascadeur/resources/scripts/python/rig_gen/connect_systems:/home/calinp/bin/cascadeur/resources/scripts/python/rig_gen/common_methods:/home/calinp/bin/cascadeur/resources/scripts/python/rig_gen/connection_objects:/home/calinp/bin/cascadeur/resources/scripts/python/rig_gen/basic_objects:/home/calinp/bin/cascadeur/resources/scripts/python/rig_gen/basic_objects/rigid_bodies:/home/calinp/bin/cascadeur/resources/scripts/python/rig_gen/basic_objects/points:/home/calinp/bin/cascadeur/resources/scripts/python/rig_gen/basic_objects/boxes:/home/calinp/bin/cascadeur/resources/scripts/python/rig_gen/rig_context_gen:/home/calinp/bin/cascadeur/resources/scripts/python/events:/home/calinp/bin/cascadeur/resources/scripts/python/events/scene_created:/home/calinp/bin/cascadeur/resources/scripts/python/events/scene_saved:/home/calinp/bin/cascadeur/resources/scripts/python/events/scene_before_removed:/home/calinp/bin/cascadeur/resources/scripts/python/events/scene_opened:/home/calinp/bin/cascadeur/resources/scripts/python/events/scene_activated:/home/calinp/bin/cascadeur/resources/scripts/python/events/scene_removed:/home/calinp/bin/cascadeur/resources/scripts/python/test:/home/calinp/bin/cascadeur/resources/scripts/python/test/application_test_cases:/home/calinp/bin/cascadeur/resources/scripts/python/test/rig_scenarios:/home/calinp/bin/cascadeur/resources/scripts/python/test/test_cases:/home/calinp/bin/cascadeur/resources/scripts/python/test/cpp:/home/calinp/bin/cascadeur/resources/scripts/python/fbx_import:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/delete_actions:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/rigs:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/rigs/qrt:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/rigs/qrt/biped:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/rig_joint_actions:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/collision_actions:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/json_actions:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/units:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/add_rig_elements_actions:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/qrt_prototypes:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/hinge_actions:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/mirror_actions:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/main_actions:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/main_actions/operators:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/struct_action:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/prototypes_common:/home/calinp/bin/cascadeur/resources/scripts/python/prototypes/additional_actions:/home/calinp/bin/cascadeur/resources/scripts/python/rig_mode:/home/calinp/bin/cascadeur/resources/scripts/python/add_function:/home/calinp/bin/cascadeur/resources/scripts/python/commands:/home/calinp/bin/cascadeur/resources/scripts/python/commands/add:/home/calinp/bin/cascadeur/resources/scripts/python/commands/collision:/home/calinp/bin/cascadeur/resources/scripts/python/commands/rig_info:/home/calinp/bin/cascadeur/resources/scripts/python/commands/transform:/home/calinp/bin/cascadeur/resources/scripts/python/commands/quick_export:/home/calinp/bin/cascadeur/resources/scripts/python/commands/copy_paste_objects:/home/calinp/bin/cascadeur/resources/scripts/python/commands/rig_additional:/home/calinp/bin/cascadeur/resources/scripts/python/commands/rig_additional/ra_samples:/home/calinp/bin/cascadeur/resources/scripts/python/commands/rig_additional/ra_samples/util_scripts:/home/calinp/bin/cascadeur/resources/scripts/python/commands/center_of_mass:/home/calinp/bin/cascadeur/resources/scripts/python/commands/animation_scripts:/home/calinp/bin/cascadeur/resources/scripts/python/commands/constrain:/home/calinp/bin/cascadeur/resources/scripts/python/commands/custom_export:/home/calinp/bin/cascadeur/resources/scripts/python/commands/custom_export/tracks_hierarchy:/home/calinp/bin/cascadeur/resources/scripts/python/commands/debug:/home/calinp/bin/cascadeur/resources/scripts/python/inner_scripts:/home/calinp/bin/cascadeur/resources/scripts/python/libs:/home/calinp/bin/cascadeur/resources/scripts/python/dbg:/home/calinp/bin/cascadeur/resources/scripts/python/dbg/Loger:/home/calinp/bin/cascadeur/resources/scripts/python/samples:/home/calinp/bin/cascadeur/resources/fonts:/home/calinp/bin/cascadeur/resources/autorig_templates:/home/calinp/bin/cascadeur/python:/home/calinp/bin/cascadeur/python/modules:/home/calinp/bin/cascadeur/python/modules/bin:/home/calinp/bin/cascadeur/python/modules/numpy-1.25.0.dist-info:/home/calinp/bin/cascadeur/python/modules/numpy.libs:/home/calinp/bin/cascadeur/python/modules/numpy:/home/calinp/bin/cascadeur/python/modules/numpy/_utils:/home/calinp/bin/cascadeur/python/modules/numpy/_utils/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/polynomial:/home/calinp/bin/cascadeur/python/modules/numpy/polynomial/tests:/home/calinp/bin/cascadeur/python/modules/numpy/polynomial/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/polynomial/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/matrixlib:/home/calinp/bin/cascadeur/python/modules/numpy/matrixlib/tests:/home/calinp/bin/cascadeur/python/modules/numpy/matrixlib/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/matrixlib/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/doc:/home/calinp/bin/cascadeur/python/modules/numpy/doc/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/typing:/home/calinp/bin/cascadeur/python/modules/numpy/typing/tests:/home/calinp/bin/cascadeur/python/modules/numpy/typing/tests/data:/home/calinp/bin/cascadeur/python/modules/numpy/typing/tests/data/fail:/home/calinp/bin/cascadeur/python/modules/numpy/typing/tests/data/pass:/home/calinp/bin/cascadeur/python/modules/numpy/typing/tests/data/pass/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/typing/tests/data/misc:/home/calinp/bin/cascadeur/python/modules/numpy/typing/tests/data/reveal:/home/calinp/bin/cascadeur/python/modules/numpy/typing/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/typing/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/_typing:/home/calinp/bin/cascadeur/python/modules/numpy/_typing/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/random:/home/calinp/bin/cascadeur/python/modules/numpy/random/_examples:/home/calinp/bin/cascadeur/python/modules/numpy/random/_examples/numba:/home/calinp/bin/cascadeur/python/modules/numpy/random/_examples/numba/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/random/_examples/cython:/home/calinp/bin/cascadeur/python/modules/numpy/random/_examples/cython/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/random/_examples/cffi:/home/calinp/bin/cascadeur/python/modules/numpy/random/_examples/cffi/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/random/lib:/home/calinp/bin/cascadeur/python/modules/numpy/random/tests:/home/calinp/bin/cascadeur/python/modules/numpy/random/tests/data:/home/calinp/bin/cascadeur/python/modules/numpy/random/tests/data/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/random/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/random/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/f2py:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/src:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/abstract_interface:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/block_docstring:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/quoted_character:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/return_logical:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/common:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/array_from_pyobj:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/return_real:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/mixed:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/crackfortran:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/assumed_shape:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/return_integer:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/kind:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/callback:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/cli:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/negative_bounds:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/value_attrspec:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/module_data:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/f2cmap:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/return_character:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/parameter:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/regression:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/string:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/size:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/src/return_complex:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/f2py/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/distutils:/home/calinp/bin/cascadeur/python/modules/numpy/distutils/command:/home/calinp/bin/cascadeur/python/modules/numpy/distutils/command/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/distutils/checks:/home/calinp/bin/cascadeur/python/modules/numpy/distutils/fcompiler:/home/calinp/bin/cascadeur/python/modules/numpy/distutils/fcompiler/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/distutils/tests:/home/calinp/bin/cascadeur/python/modules/numpy/distutils/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/distutils/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/distutils/mingw:/home/calinp/bin/cascadeur/python/modules/numpy/lib:/home/calinp/bin/cascadeur/python/modules/numpy/lib/tests:/home/calinp/bin/cascadeur/python/modules/numpy/lib/tests/data:/home/calinp/bin/cascadeur/python/modules/numpy/lib/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/lib/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/ma:/home/calinp/bin/cascadeur/python/modules/numpy/ma/tests:/home/calinp/bin/cascadeur/python/modules/numpy/ma/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/ma/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/_pyinstaller:/home/calinp/bin/cascadeur/python/modules/numpy/_pyinstaller/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/tests:/home/calinp/bin/cascadeur/python/modules/numpy/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/linalg:/home/calinp/bin/cascadeur/python/modules/numpy/linalg/tests:/home/calinp/bin/cascadeur/python/modules/numpy/linalg/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/linalg/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/array_api:/home/calinp/bin/cascadeur/python/modules/numpy/array_api/tests:/home/calinp/bin/cascadeur/python/modules/numpy/array_api/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/array_api/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/core:/home/calinp/bin/cascadeur/python/modules/numpy/core/lib:/home/calinp/bin/cascadeur/python/modules/numpy/core/lib/npy-pkg-config:/home/calinp/bin/cascadeur/python/modules/numpy/core/tests:/home/calinp/bin/cascadeur/python/modules/numpy/core/tests/examples:/home/calinp/bin/cascadeur/python/modules/numpy/core/tests/examples/cython:/home/calinp/bin/cascadeur/python/modules/numpy/core/tests/examples/cython/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/core/tests/examples/limited_api:/home/calinp/bin/cascadeur/python/modules/numpy/core/tests/examples/limited_api/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/core/tests/data:/home/calinp/bin/cascadeur/python/modules/numpy/core/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/core/include:/home/calinp/bin/cascadeur/python/modules/numpy/core/include/numpy:/home/calinp/bin/cascadeur/python/modules/numpy/core/include/numpy/random:/home/calinp/bin/cascadeur/python/modules/numpy/core/include/numpy/libdivide:/home/calinp/bin/cascadeur/python/modules/numpy/core/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/compat:/home/calinp/bin/cascadeur/python/modules/numpy/compat/tests:/home/calinp/bin/cascadeur/python/modules/numpy/compat/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/compat/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/fft:/home/calinp/bin/cascadeur/python/modules/numpy/fft/tests:/home/calinp/bin/cascadeur/python/modules/numpy/fft/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/fft/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/testing:/home/calinp/bin/cascadeur/python/modules/numpy/testing/_private:/home/calinp/bin/cascadeur/python/modules/numpy/testing/_private/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/testing/tests:/home/calinp/bin/cascadeur/python/modules/numpy/testing/tests/__pycache__:/home/calinp/bin/cascadeur/python/modules/numpy/testing/__pycache__:/home/calinp/bin/cascadeur/python/lib:/home/calinp/bin/cascadeur/python/lib-dynload:/home/calinp/bin/cascadeur/samples" ~/bin/cascadeur/cascadeur
+cascadeur
+sudo pacman -S libxml2
+cascadeur
+QT_DEBUG_PLUGINS=1 cascadeur
+sudo pacman -S  qt5-wayland
+cascadeur
+sudo pacman -S libxml2-legacy
+cascadeur
+sudo pacman -S ceres-solver
+cascadeur
+sudo pacman -S qt5-wayland
+cascadeur
+QT_DEBUG_PLUGINS=1 cascadeur
+$env.QT_DEBUG_PLUGINS=1 cascadeur
+$env.QT_DEBUG_PLUGINS=1
+$env.QT_DEBUG_PLUGINS="1"
+QT_DEBUG_PLUGINS=1 
+$env.QT_DEBUG_PLUGINS=1 
+QT_DEBUG_PLUGINS=1 cascadeur
+hx .config/nushell/config.nu
+yay
+exit
+yay
+cascadeur
+cascadeur -platform wayland
+sudo pacman -S qt6-wayland
+cascadeur -platform wayland
+ldd /home/calinp/bin/cascadeur/cascadeur
+yay -S wine
+yay -S bottles
+yay -S legendary
+legendary
+legendary auth
+legendary list
+legendary install Alan Wake II
+legendary sync-saves dc9d2e595d0e4650b35d659f90d41059
+ls
+ls -a
+ls .local/
+ls .local/share
+legendary sync-saves dc9d2e595d0e4650b35d659f90d41059
+ls .local/share/Steam/
+legendary sync-saves dc9d2e595d0e4650b35d659f90d41059
+legendary sync-saves --help dc9d2e595d0e4650b35d659f90d41059
+legendary sync-saves --save-path ~/.local/share/legendary/ dc9d2e595d0e4650b35d659f90d41059
+ls .local/share/legendary/
+legendary
+legendary launch aw2
+sudo pacman -S wine-mono
+legendary launch aw2
+yay -S heroic-games-launcher
+btop
+bluetui
+systemctl start bluetooth.service
+bluetui
+yazi
+echo $env.PATH
+hx .config/nushell/config.nu
+source $nu.config-path
+chsh --help
+chsh 
+chsh -l
+echo $env.SHELL
+which nu
+echo .config/nushell/
+ls .config/nushell/
+bat .config/nushell/login.nu
+hx .config/nushell/login.nu
+source $nu.loginshell-path
+echo $nu.loginshell-path
+echo $nu.is-login
+echo $env.PATH
+echo $nu.is-login
+$env | reject config | transpose key val | each {|r| echo $"$env.($r.key) = '($r.val)'"} | str join (char nl)
+hx .config/nushell/login.nu
+echo $nu.is-login
+echo $env.PATH
+hx .config/ghostty/
+which nu
+man pacman
+pacman -Qi nu
+pacman -Qi nushell
+which nushell
+which nu
+hx .bash_profile
+hx .bashrc
+hx .config/nushell/login.nu
+echo $env.PATH
+godot-3.6
+hx .config/nushell/env.nu
+echo $env.PATH
+hx .config/hypr/hyprland.conf
+hx .bashrc
+chsh -l
+chsh -s /bin/bash
+hx .bashrc
+echo $env.SHELL
+echo $env.PATH
+hx .bashrc
+hx .bash_profile
+sudo yazi
+hyperctl monitors
+hyprctl monitors
+hx .config/hypr/hyprland.conf
+hx .config/fontconfig/fonts.conf
+hx .
+z windlight
+git status
+hx .
+ncat
+sudo pacman -S ncat
+sudo pacman -S nmap
+ncat
+hx .
+git status
+git diff
+git status
+git add .
+git commit -m "linux changes"
+gh auth setup-git
+git commit -m "linux changes"
+gh config --global user.email "iamwyvern511@gmail.com"
+git config --global user.email "iamwyvern511@gmail.com"
+git config --global user.name "wyvernbw"
+git commit -m "linux changes"
+git push
+cargo binstall dust
+yay -S dust
+dust .
+ls Games
+dust Games
+which aseprite
+ln -s /home/calinp/.local/share/Steam/steamapps/common/Aseprite/aseprite ~/bin/aseprite
+aseprite
+xwacom
+pacman -Qi wacom
+pacman -Qs wacom
+xinput
+input
+more /proc/bus/usb/devices
+sudo pacman -S wacom
+sudo pacman -S libwacom
+sudo pacman -S opentabletdriver
+yay -S opentabletdriver
+systemctl --user enable opentabletdriver.service --now
+systemctl start opentabletdriver.service
+opentabletdriver
+yay -Qi opentabletdriver
+otd
+otd setoutputmode
+otd setoutputmode --help
+otd setoutputmode tablet
+otd --help
+otd detect
+otd listtools
+otd listoutputmodes
+systemctl --user enable opentabletdriver.service --now
+hx .
+git status
+git add .
+git commit -m "husk: improve quickstep juice"
+git push
+hx .
+y
+hx .
+git status
+git add .
+git commit -m "husk: improve jump juice and add quickstep sound"
+git push
+pfetch
+ghostty --help
+ghostty +list-fonts
+ghostty +list-fonts | rg geist
+ghostty +list-fonts | rg Geist
+pfetch
+clear
+hx .config/ghostty/
+z windlight
+hx .
+btop
+hx .
+git status
+git add .
+git commit -m "emma: add shoot01 and improve beach color grading"
+git push
+sudo 
+su
+sudo nu
+zi windlight
+git status
+git diff
+git config --get core.autocrlf
+git config --global core.autocrlf input 
+git config --get --global core.autocrlf input 
+git status
+yay -S dvc
+dvc
+yay -S dvc
+sudo pacman -Sy
+yay -S dvc
+git status
+dvc
+dvc install http
+yay -S dvc-http
+yay -R dvc
+pip
+pip3
+pip3 install dvc
+yay -S python-dvc
+pacman -S python-dvc
+sudo pacman -S python-dvc
+yay -S dvc
+yay -S zellij
+zellij
+mkdir ~/.config/zellij<\n>zellij setup --dump-config > ~/.config/zellij/config.kdl<\n>
+mkdir ~/.config/zellij
+hx ~/.config/hypr/hyprland.conf
+zellij setup --dump-config > ~/.config/zellij/config.kdl
+zellij setup --dump-config | save ~/.config/zellij/config.kdl
+zellij setup --dump-config | save -f ~/.config/zellij/config.kdl
+hx ~/.config/zellij/config.kdl
+z ~
+gh repo clone rose-pine/zellij
+ls
+ls | rg zellij
+gh repo clone rose-pine/zellij rose-pine-zellij
+z rose-pine-zellij/
+ls
+ls dist
+mkdir ~/.config/zellij/themes
+cp dist/* ~/.config/zellij/themes/*
+cp dist/* ~/.config/zellij/themes/
+ls ~/.config/zellij/themes
+hx ~/.config/zellij/config.kdl
+hx ~/.config/helix/config.toml
+z ..
+hx .
+zi wind anim
+git status
+y
+bottles-cli
+bottles-cli info
+bottles-cli programs
+bottles-cli programs -b cascadeur
+bottles-cli standalone
+bottles-cli standalone -b cascadeur
+./home/calinp/.local/share/bottles/bottles/cascadeur
+/home/calinp/.local/share/bottles/bottles/cascadeur
+ls
+ls standalone
+z ..
+zi wind anim
+z ~
+ls
+hx .
+source $nu.config-path
+ls
+touch bin/cascadeur
+hx bin/cascadeur/
+ls bin/cascadeur/
+rm -rf bin/cascadeur/
+touch bin/cascadeur
+hx bin/cascadeur/
+cascadeur 
+./bin/cascadeur 
+z bin
+ls
+chmod --ls
+chmod --help
+chmod +x cascadeur
+ls
+cascadeur 
+hx cascadeur
+cascadeur 
+z ..
+zi wind anim
+git status
+git restore husk/executes/execute_amelia.blend
+yay -S git-lfs
+git restore husk/executes/execute_amelia.blend
+git status
+git add .
+git commit -m "emma: add execute 01 animation"
+git push
+hx
+config 
+exit
+z bjorn/
+z ..
+yay -S via-bin
+sudo pacman -S xbindkeys
+xbindkeys
+xbindkeys --defaults | save /home/calinp/.xbindkeysrc
+xbindkeys
+sudo libinput debug-events
+clear
+ln --help
+ln -s /mnt/ss2/ ~/ssd2/
+ln -s -d /mnt/ss2/ ~/ssd2/
+ln -d /mnt/ss2/ ~/ssd2/
+mkdir ~/ssd2
+ln -d /mnt/ss2/ ~/ssd2/
+sudo ln -d /mnt/ss2/ ~/ssd2/
+sudo ln /mnt/ss2/ ~/ssd2/
+ln -s /mnt/ss2/ ~/ssd2/
+z ~/ssd2
+ls
+z ..
+ls
+ls ssd2
+z ssd2
+ls
+rm ss2
+ls
+z ..
+ls /mnt
+ln -s /mnt/ssd2/ ~/ssd2/
+z ~/ssd2
+ls
+z ssd2
+ls
+z ..
+z ~
+z ssd2
+ls
+rm ssd2
+z ..
+ln -s /mnt/ssd2/ ~/ssd2/
+ls
+ls ssd2/
+z ssd2
+rm ssd2
+ls
+z ..
+rm ssd2
+ls
+ln -s /mnt/ssd2/ ~/ssd2/
+ln -s /mnt/ssd2/ ~/
+ls
+z ssd2
+ls
+z wyvern/
+ls
+z windlight-animations/
+ls
+y
+hx .
+y
+hx .
+y
+wyrdir-cli 
+wyrdir-cli run
+wyrdir-cli run --help
+wyrdir-cli run -a emma/pipelines/execute-01.ron
+btop
+ls
+z wyrdir/
+ls
+hx .
+rust-analyzer
+rustup install rust-analyzer
+rustup component add rust-analyzer
+hx .
+cargo install --path wyrdir-cli/
+z wind anim
+git status
+wyrdir-cli run -a --threads 1 emma/pipelines/execute-01.ron
+y
+wyrdir-cli run -a --threads 1 emma/pipelines/execute-01.ron
+hx .
+z wyrdir
+hx .
+cargo install --path wyrdir-cli/
+zi wind anim
+wyrdir-cli run -a --threads 1 --blender-options "-b" emma/pipelines/execute-01.ron
+zi wyrdir
+hx .
+wyrdir-cli run -a --threads 1 --blender_options "-b" emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 --blender-options -- "-b" emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 --blender-options "-b" emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 --blender-options "-- -b" emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 --blender-options -- -b  emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 --blender-options -- -b emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 --blender-options '-b' emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 --blender-options='-b' emma/pipelines/execute-01.ron
+y
+wyrdir-cli run -a --threads 1 emma/pipelines/execute-01.ron
+hx .
+y
+wyrdir-cli run -a --threads 2 emma/pipelines/execute-01.ron
+hx .
+y
+wyrdir-cli run -a --threads 1 --blender-options="-b -a" emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 --blender-options='-b -a' emma/pipelines/execute-01.ron
+y
+z wyrdir
+cargo install --path wyrdir-cli/
+exit
+zi wind anim
+wyrdir-cli run -a --threads 1 --blender-options='-b -a' emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 --blender-options='-b' emma/pipelines/execute-01.ron
+z wyrdir
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -a --threads 1 --blender-options='-b -a' emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 -b='-b' -b='-a' emma/pipelines/execute-01.ron
+wyrdir-cli run -a --threads 1 -b='-b' -b='-E eevee' emma/pipelines/execute-01.ron
+blender -E help
+btop
+wyrdir-cli run -a --threads 1 -b='-b' -b='-E BLENDER_EEVEE_NEXT' emma/pipelines/execute-01.ron
+y
+wyrdir-cli run -a --threads 1 -b='-b' -b='-E BLENDER_EEVEE_NEXT' emma/pipelines/execute-01.ron
+y
+wyrdir-cli run -a -b='-b' emma/pipelines/execute-01.ron
+yay -S libre-office
+yay -Si
+yay -Si libre-office
+man pacman
+yay -Qi libre-office
+yay -Ss libre-office
+yay -Ss libre office
+yay -S libreoffice
+hx ~/Downloads/who-cares/
+gh repo clone hiragana
+gh repo clone hiragana-type-test
+z hiragana-type-test/
+bun run dev\
+bun run dev \
+yay -S hyprshot
+hx ~/.config/
+exit
+hx
+z hiragana-type-test/
+yay -S bun
+curl -fsSL https://bun.sh/install | bash
+bun
+config nu
+source $nu.config-path
+bun
+hx .
+bun install
+source $nu.config-path
+bun install
+bun run dev
+hx .env
+hx Downloads/who-cares/
+exit
+clear
+hx .
+exit
+clear
+z wyrdir
+hx .
+yay -S hyperfine
+git status
+git add .gitignore
+git status
+git add .
+git status
+git restore --staged .
+hx .
+git status
+hyperfine "blender -b -a test-assets/cube_diorama.blend"
+ls test-assets/cube-diorama-test-render-results/
+blender -b -a test-assets/cube_diorama.blend
+blender -b -s 0 -e 40 test-assets/cube_diorama.blend
+btop
+blender -b -s 0 -e 40 test-assets/cube_diorama.blend
+blender -b test-assets/cube_diorama.blend -s 0 -e 40
+blender -b test-assets/cube_diorama.blend -s 0 -e 40 -a
+y
+yay -S ffmpeg 7zip jq poppler fd resvg imagemagick
+y
+yay -S loupte
+yay -S loupe
+blender -b test-assets/cube_diorama.blend -s 0 -e 40 -a
+blender -b test-assets/cube_diorama.blend 
+blender -b test-assets/cube_diorama.blend -E CYCLES -s 0 -e 40 -a
+blender -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 40 -a
+blender -b test-assets/cube_diorama.blend -E CYCLES -s 0 -e 40 --cycles-device CUDA -a
+blender -b test-assets/cube_diorama.blend -E CYCLES -s 0 -e 40 -a -- --cycles-device CUDA
+blender -b test-assets/cube_diorama.blend -E CYCLES -s 0 -e 40 -a -- --cycles-device CPU
+blender -b test-assets/cube_diorama.blend -E CYCLES -s 0 -e 40 --log-level -1 -a
+hx ~/.config/
+source $nu.config-path
+blender -E CYCLES -s 0 -e 40 --log-level -1 -a-b test-assets/cube_diorama.blend 
+blender -E CYCLES -s 0 -e 40 --log-level -1 -a -b test-assets/cube_diorama.blend 
+blender -E CYCLES -s 0 -e 40 --log-level -1 -b test-assets/cube_diorama.blend -a
+blender -E CYCLES -s 0 -e 40 --log-level -1 -b -a test-assets/cube_diorama.blend 
+blender -E BLENDER_EEVEE_NEXT -s 0 -e 40 --log-level -1 -b -a test-assets/cube_diorama.blend 
+blender -E BLENDER_EEVEE_NEXT -s 0 -e 40 -o //cube-diorama-test-render-results --log-level -1 -b -a test-assets/cube_diorama.blend 
+blender -E BLENDER_EEVEE_NEXT -s 0 -e 40 -o --log-level -1 -b test-assets/cube_diorama.blend -a 
+blender -E BLENDER_EEVEE_NEXT -s 0 -e 40 -o --log-level -1 test-assets/cube_diorama.blend -a 
+blender -E BLENDER_EEVEE_NEXT -s 0 -e 40 -o --log-level -1 -a test-assets/cube_diorama.blend
+blender --help
+blender test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 40 -o --log-level -1 -a 
+blender -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 40 -o --log-level -1 -a 
+blender -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 40 --log-level -1 -a 
+blender test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 40 --log-level -1 -a 
+blender --version 
+blender test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 40 --log-level -1 -f 20
+blender test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 40 --log-level -1 -a
+blender test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 40 -a 
+blender test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 -a 
+blender -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 -a 
+blender -E BLENDER_EEVEE_NEXT test-assets/cube_diorama.blend -s 0 -e 20 -a 
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 -a 
+blender -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 --gpu-backend vulkan -a 
+blender --gpu-backend opengl -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 -a 
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 -a 
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 -S "Cube Diorama" -a 
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -s 0 -e 20 -S "Cube Diorama" -a 
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -s 0 -e 20 -S "Cube Diorama"
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -s 0 -e 20 -S "Cube Diorama" -f 14
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -s 1 -e 20 -S "Cube Diorama" -f 14 -a
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -s 1 -e 20 -S "Cube Diorama" 
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -- -s 1 -e 20 -S "Cube Diorama" -a
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -s 1 -e 20 -S "Cube Diorama" -a
+blender --gpu-backend vulkan  test-assets/cube_diorama.blend -s 1 -e 20 -S "Cube Diorama" -a
+blender --gpu-backend vulkan  test-assets/cube_diorama.blend -s 1 -e 20 -S "Cube Diorama" 
+blender --gpu-backend vulkan -a test-assets/cube_diorama.blend -s 1 -e 20 -S "Cube Diorama" 
+blender --gpu-backend vulkan test-assets/cube_diorama.blend -s 1 -e 20 -S "Cube Diorama" -f 10
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -s 1 -e 20 -S "Cube Diorama" -f 10
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -E CYCLES -s 1 -e 20 -S "Cube Diorama" -f 10
+blender --gpu-backend vulkan -b test-assets/cube_diorama.blend -E CYCLES -s 1 -e 20 -f 10
+yay -S  blender-4.3-bin 
+which blender
+blender --version
+yay -S blender-git
+yay -S opencollada
+yay -Syu 
+yay -S blender-git
+cmake
+cmake --version
+sudo pacman -S cmake
+cmake --version
+yay -S opencollada
+yay -S opencollada-blender-git
+yay -S blender-git
+ld
+sudo pacman -S ld
+ld
+CMAKE_CXX_FLAGS="-DCMAKE_LINKER_TYPE=mold" yay -S blender-git
+CMAKE_CXX_FLAGS="-DCMAKE_LINKER_TYPE=mold" yay -S blender-gitld --version
+ld --version
+sudo pacman -S gnubinutils
+sudo pacman -Sy
+yay -S blender-git
+ld.gold
+ld.gold --help
+sudo pacman -S clang cmake
+yay -S blender-git
+yay -S llvm-git
+yay -S llvm-libs-git llvm-git
+yay -S lldb-git
+ld
+ld --version
+yay -Qi ld
+yay -Qi llvm-git
+yay -Qi llvm-libs-git
+yay -S blender-git
+yay -R blender
+yay -S blender-4.2-bin
+yay -S blender-4.3-bin
+z wyrdir
+blender -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 --gpu-backend vulkan -a 
+blender-4.3 -b test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 --gpu-backend vulkan -a 
+blender-4.3 test-assets/cube_diorama.blend -E BLENDER_EEVEE_NEXT -s 0 -e 20 --gpu-backend vulkan -a 
+blender-4.3 test-assets/cube_diorama.blend -a
+blender-4.3 -a test-assets/cube_diorama.blend 
+ls
+ls src
+y
+blender-4.3 test-assets/cube_diorama.blend -P wyrdir-runtime/src/view_layers.py
+bat wyrdir-runtime/src/view_layers.py
+bat wyrdir-runtime/src/render.py
+blender-4.3 test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false
+btop
+exit
+hyperfine "blender-4.3 test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 "blender-4.3 test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+btop
+hyperfine --runs 3 "blender-4.3 test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 "blender-4.3 test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 --show-output "blender-4.3 test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 --show-output "blender-4.3 test-assets/cube_diorama.blend --log-level -1 -P wyrdir-runtime/src/render.py -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+z wyrdir
+hyperfine --runs 3 --show-output "blender-4.3 -P wyrdir-runtime/src/render.py test-assets/cube_diorama.blend --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 --show-output "blender-4.3 -P wyrdir-runtime/src/render.py -b test-assets/cube_diorama.blend --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 --show-output "blender-4.3 test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 --show-output "blender-4.3 test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -a -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -S 'Cube Diorama' -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+update-desktop-database
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+yay -R blender-4.3
+yay -R blender-4.3-bin
+yay -S blender-4.2-bin
+blender-4.2
+yay -Yc
+yay -S blender-4.2-bin
+hyperfine --runs 3 --show-output "blender-4.3 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 --show-output "blender-4.2 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+blender-4.2 -b test-assets/cube_diorama.blend -s 0 -e 10 -a
+btop
+hx .
+blender-4.2 -b test-assets/cube_diorama.blend -f 4
+hyperfine --runs 3 --show-output "blender-4.2 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 "blender-4.2 -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hx .
+hyperfine --runs 3 "blender-4.2 test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+yay -S blender
+hyperfine --runs 3 "blender test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+hyperfine --runs 3 --show-output "blender test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+bat /tmp/cube_diorama.crash.txt
+hyperfine --runs 3 --show-output "blender -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+git status
+hx .
+yay -S lazygit
+lazygit
+git status
+lazygit
+git status
+git restore wyrdir-runtime/src/render.py
+git status
+hyperfine --runs 3 --show-output "blender -b test-assets/cube_diorama.blend -P wyrdir-runtime/src/render.py --log-level -1 -- test-assets/cube-diorama-test-render-results/ ViewLayer false"
+git status
+git commit -m "add benchmarks"
+git push
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli help
+wyrdir-cli run --help
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run --help
+wyrdir-cli help
+zi wind anim
+y
+blender --version
+z ..
+wyrdir-cli run -t 2 emma/pipelines/execute-01.ron
+y
+btop
+wyrdir-cli run -t 2 emma/pipelines/execute-01.ron
+y
+z ../../../
+wyrdir-cli run -t 2 emma/pipelines/execute-01.ron
+btop
+y
+wyrdir-cli run -t 2 emma/pipelines/execute-01.ron
+y
+wyrdir-cli run -t 1 emma/pipelines/execute-01.ron
+y
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ ViewLayer false"
+hx .
+y
+zi wind anim
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+clear
+btop
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+clear
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+clear
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+clear
+hyperfine --runs 1 --show-output "blender emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+wyrdir-cli run -t 1 --headless false emma/pipelines/execute-01.ron
+wyrdir-cli run --headless 0 -t 1 emma/pipelines/execute-01.ron
+wyrdir-cli run --help
+wyrdir-cli run --headless 0 -t 1 "emma/pipelines/execute-01.ron"
+wyrdir-cli run --headless -t 1 "emma/pipelines/execute-01.ron"
+z wyrdir
+hx .
+wyrdir-cli run --headless=false -t 1 "emma/pipelines/execute-01.ron"
+wyrdir-cli run --headless=0 -t 1 "emma/pipelines/execute-01.ron"
+hx .
+z wyrdir
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+btop
+wyrdir-cli run --headless -t 1 "emma/pipelines/execute-01.ron"
+hx .
+z wyrdir
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+zi wind a
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+clear
+hyperfine --runs 1 --show-output "blender emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+hyperfine --runs 1 --show-output "blender --cycles-device GBPU -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+hyperfine --runs 1 --show-output "blender --cycles-device GPU -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false --cycles-device GPU"
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false --cycles-device CUDA"
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false 0 29 --cycles-device CUDA"
+hyperfine --runs 1 --show-output "blender -E BLENDER_EEVEE_NEXT -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -E BLENDER_EEVEE_NEXT -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+hx ~/wyrdir/
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -E BLENDER_EEVEE_NEXT -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+clear
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -E CYCLES -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+hx ~/wyrdir/
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+clear
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+z wyrdir
+hx .
+cargo install --path wyrdir-cli/
+zi wind anim
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+clear
+hx .
+z wyrdir
+hx .
+cargo install --path wyrdir-cli/
+zi wind anim
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+z wyrdir
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+hyperfine --runs 1 --show-output "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/ emma false"
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+wyrdir-cli run -t 2 "emma/pipelines/execute-01.ron"
+hx .
+cargo add notify
+hx .
+cargo build
+cargo build 
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+hx 
+exit
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 1 "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 4 "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -t 32 "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+hx .
+z wyrdir-runtime/
+cargo add envy
+z ..
+hx .
+cargo install --path wyrdir-cli/
+BLENDER_BIN=blender-4.2 wyrdir-cli run "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -p "emma/pipelines/execute-01.ron"
+hyperfine --runs 1 "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/emma.base/ emma false"
+hyperfine --runs 1 "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/emma.smear/ emma true"
+wyrdir-cli run -p "emma/pipelines/execute-01.ron"
+hyperfine --runs 1 "blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/render.py --log-level -1 -- emma/renders/execute_1/swords.smear/ swords true"
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -p "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+hx .
+source $nu.config-path
+wyrdir-cli aseprite
+wyrdir-cli export
+wyrdir-cli export emma/pipelines/execute-01.ron 
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+config nu
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+z ~/.config/aseprite/scripts/
+git reflog
+git pull
+ls
+zi wind anim
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+exit
+hx .
+exit
+zi wyrdir
+git status
+git add .
+git commit -m "finally fix headless rendering"
+git push
+wyrdir-cli --help
+wyrdir a
+wyrdir-cli a
+wyrdir-cli render
+wyrdir-cli aseprite
+exit
+zi wind anim
+z .
+zi wind anim
+z .
+z wind anim
+zi wind anim
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+z aseprite scripts
+ls
+hx .
+hx --health lua
+yay -S lua-language-server
+aseprite --help
+zi wyrdir
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+WYRDIR_LOG=debug wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+"aseprite" "-b" "--script-param=batch=on" "emma/renders/execute_1/$execute_1.aseprite" "--save-as=emma/renders/execute_1/$execute_1.aseprite" "--script-param=layer_1_name=swords" "--script-param=layer_1_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/swords.final/./magicfolder/magicfile.png" "--script-param=layer_2_name=emma" "--script-param=layer_2_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/emma.final/./magicfolder/magicfile.png" "--script-param=layer_3_name=husk_blood" "--script-param=layer_3_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/husk_blood.final/./magicfolder/magicfile.png" "--script-param=tag_name=$execute_1" "--script=~/.config/aseprite/scripts/"
+aseprite -b --script-param=batch=on emma/renders/execute_1/$execute_1.aseprite --save-as=emma/renders/execute_1/$execute_1.aseprite --script-param=layer_1_name=swords --script-param=layer_1_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/swords.final/./magicfolder/magicfile.png --script-param=layer_2_name=emma --script-param=layer_2_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/emma.final/./magicfolder/magicfile.png --script-param=layer_3_name=husk_blood --script-param=layer_3_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/husk_blood.final/./magicfolder/magicfile.png --script-param=tag_name=$execute_1 --script=~/.config/aseprite/scripts/
+aseprite -b
+aseprite -b --script="~/.config/aseprites/scripts/angler_imp.lua"
+hx .
+realpath angler_imp.lua
+aseprite -b --script="home/calinp/.config/aseprites/scripts/angler_imp.lua"
+aseprite --help
+aseprite -b -v --script="home/calinp/.config/aseprites/scripts/angler_imp.lua"
+aseprite -b --debug --script="home/calinp/.config/aseprites/scripts/angler_imp.lua"
+aseprite --version
+aseprite --help | rg script
+aseprite -b --debug --script "home/calinp/.config/aseprites/scripts/angler_imp.lua"
+aseprite --shell
+aseprite -b --debug --script "home/calinp/.config/aseprites/scripts/angler_imp.lua"
+aseprite -b --debug --script "home/calinp/.config/aseprite/scripts/angler_imp.lua"
+aseprite -b --debug --script=/home/calinp/.config/aseprite/scripts/angler_imp.lua
+config nu
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+aseprite -b --script-param=batch=on emma/renders/execute_1/$execute_1.aseprite --save-as=emma/renders/execute_1/$execute_1.aseprite --script-param=layer_1_name=swords --script-param=layer_1_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/swords.final/./magicfolder/magicfile.png --script-param=layer_2_name=emma --script-param=layer_2_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/emma.final/./magicfolder/magicfile.png --script-param=layer_3_name=husk_blood --script-param=layer_3_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/husk_blood.final/./magicfolder/magicfile.png --script-param=tag_name=$execute_1 --script=~/.config/aseprite/scripts/
+config nu
+source $nu.config-path
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+WYRDIR_LOG=debug wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+"aseprite" "-b" "--script-param=batch=on" "emma/renders/execute_1/$execute_1.aseprite" "--save-as=emma/renders/execute_1/$execute_1.aseprite" "--script-param=layer_1_name=swords" "--script-param=layer_1_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/swords.final/./magicfolder/magicfile.png" "--script-param=layer_2_name=emma" "--script-param=layer_2_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/emma.final/./magicfolder/magicfile.png" "--script-param=layer_3_name=husk_blood" "--script-param=layer_3_import_path=/mnt/ssd2/wyvern/windlight-animations/emma/renders/execute_1/husk_blood.final/./magicfolder/magicfile.png" "--script-param=tag_name=$execute_1" "--script=/home/calinp/.config/aseprite/scripts/angler_imp.lua"
+hx test.nu
+test
+test.nu
+./test.nu
+hx .
+./test.nu
+hx .
+./test.nu
+test
+which test
+nu test.nu
+hx .
+test.nu
+./test.nu
+hx .
+./test.nu
+hx .
+./test.nu
+hx .
+./test.nu
+hx .
+./test.nu
+hx .
+./test.nu
+hx .
+./test.nu
+hx .
+./test.nu
+WYRDIR_LOG=debug wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+hx .
+git status
+git add .
+git commit -m "angler_imp: fix gui mode"
+git push
+git status
+hx .
+git diff
+hx .
+git diff
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+hx .
+y
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+btop
+y
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+hx .
+y
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+y
+hx .
+cargo install --path wyrdir-cli/
+WYRDIR_LOG=debug wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+hx .
+hx .
+cargo install --path wyrdir-cli/
+WYRDIR_LOG=debug wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+btop
+hx .
+y
+WYRDIR_LOG=debug wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+hx .
+cargo install --path wyrdir-cli/
+hx .
+btop
+exit
+y
+git status
+ls
+z wl-render-2/
+git status
+hx .
+git switch
+git branch
+git switch main
+git status
+git log
+git log --oneline
+git pull
+git diff 2c0e16b
+git diff
+lazygit
+z ..
+git status
+git add wl-render-2/
+git status
+git commit -m "bump wl-render-2"
+git push
+git diff
+git add .
+git commit -m "clean up code"
+git status
+git push
+cargo install --path wyrdir-cli/
+z ../../../
+z ../
+z ..
+config nu
+source $nu.config-path
+y
+.. 3
+config nu
+source $nu.config-path
+.. 3
+z ...
+config nu
+source $nu.config-path
+z ...
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+hx .
+y
+ls
+realpath .
+git status
+z wl-render-2/
+git status
+git diff
+z ..
+ls
+git status
+z wl-render-2/
+git status
+git add .
+git commit -m "fix smear no outline dispatch bug"
+git push
+z ..
+git pull
+z wl-render-2/
+git status
+git pull
+git pull --rebase
+hx .
+git diff
+git status
+git push
+z ..
+git status
+git add .
+git commit -m "bump wl-render-2"
+git push
+zi wyrdir
+clear
+git pull
+ls
+git diff
+git status
+z wl-render-2/
+git status
+git pull
+z ..
+git pull --recurse-submodules
+git status
+cargo install --path wyrdir-cli/
+z ...
+z ..
+git status
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+zi wyrdir
+git status
+btop
+y
+hx .
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+hx .
+y
+git status
+git add .
+git commit -m "emma: render execute 01"
+git push
+git status
+btop
+htop
+btop
+sudo pacman -S lm_sensors
+sudo sensors-detect
+sensors
+watch -n 1 sensors
+watch 1 sensors
+watch sensors
+^watch -n 1 sensors
+btop
+nvidia-smi --query-gpu=fan.speed,temperature.gpu --format=csv
+sudo pacman -S fancontrol
+fancontrol
+sudo systemctl enable fancontrol
+sudo systemctl start fancontrol
+^watch -n 1 sensors | grep -E 'fan2|Tctl'
+btop
+pwmconfig
+sudo pwmconfig
+btop
+htop
+sensors
+btop
+echo 0 > /sys/devices/system/cpu/cpufreq/boost
+echo 0 | save /sys/devices/system/cpu/cpufreq/boost
+bat /sys/devices/system/cpu/cpufreq/boost
+echo 0 | save -f /sys/devices/system/cpu/cpufreq/boost
+sudo echo 0 | save -f /sys/devices/system/cpu/cpufreq/boost
+bat /sys/devices/system/cpu/cpufreq/boost
+sudo hx /sys/devices/system/cpu/cpufreq/boost
+sudo echo "hello"
+sudo yay -S
+bat /etc/sudoers
+sudo bat /etc/sudoers
+sudo echo "hello world"
+sudo echo "hello"
+su
+su 
+sudo -l
+bash
+sudo -l
+sudo -l 
+exit
+sudo -l
+cpupower
+auto-cpufreq
+yay -S auto-cpufreq
+systemctl enable --now auto-cpufreq 
+auto-cpufreq 
+auto-cpufreq-gtk 
+btop
+exit
+su - calinp
+exit
+yay -S swww
+btop
+auto-cpufreq
+auto-cpufreq --monitor
+sudo auto-cpufreq --monitor
+sudo auto-cpufreq --force balanced
+sudo auto-cpufreq --install
+sudo auto-cpufreq --force balanced
+btop
+sudo auto-cpufreq --stats
+exit
+zi wind anim
+git status
+y
+zi wind anim
+hx .
+y
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+zi wyrdir
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+hx .
+blender -b emma/emma-and-husk.blend -P ~/wyrdir/wyrdir-runtime/src/view_layers.py
+wyrdir-cli infuse emma/pipelines/execute-01.ron
+hx .
+z wyrdir-runtime/
+z ..
+ls
+y
+hx .
+zi wind anim
+y
+cargo install --path wyrdir-cli/
+wyrdir-cli run -p -a "emma/pipelines/execute-01.ron"
+hx .
+wyrdir-cli export emma/pipelines/execute-01.ron --output emma/renders/execute_1/$execute_1.aseprite
+git status
+git add .
+git diff
+lazygit
+git commit -m "render.py: update render engine on each run"
+git push
+y
+git status
+git add .
+git commit -m "emma: fix execute 01 husk blood layer"
+git push
+y
+git status
+zi windlight
+hx .
+git staus
+git status
+git add .
+git commit -m "emma: add execute 1"
+git push
+git status
+z gdnative
+ls
+git status
+git diff
+git status
+git add .
+git commit -m "fix use of `std::slice::from_raw_parts` in `gdnative-core`"
+git push
+hx .
+git status
+git add .
+git commit -m "update readme"
+git push
+z ..
+git status
+git add .
+git commit -m "bump gdnative"
+git push
+z gd
+hx .
+z ..
+hx .
+git status
+git add .
+git commit -m "emma: add execute 1 effects"
+git push
+godot-3.6 
+zi windlight
+cargo build-unix --release
+zi windlight
+cargo clean
+cargo build-unix --release
+hx .
+cargo clean
+cargo build-unix --release
+z gdnative
+git branch
+git rebase master
+git status
+git pull 
+git pull --rebase
+git status
+git push
+z ..
+cargo clean
+cargo build-unix --release
+z gdnative
+git log
+git log --oneline
+git revert --no-comit 1a24a02
+git revert --no-commit 1a24a02
+git status
+git add .
+git commit -m "revert rebase"
+git push
+git log
+hx .
+git revert --no-commit HEAD..1a24a02
+git log --oneline
+git reflog
+git reset --hard ea72d59
+git push --force
+git status
+git reset
+git status
+git reset --hard HEAD
+git status
+git log 
+git clean 
+git clean -f
+git status
+z ..
+cargo build-unix --release
+z gdnative
+git reflog
+git reset --hard 1a24a02
+git status
+z ..
+cargo build-unix --release
+git status
+z gdnative
+git push --force 
+hx .
+z ..
+hx .
+z gdnative
+hx .
+exit
+zi windlight
+git status
+hx .
+cargo build-unix --release
+btop
+git status
+git add .
+git diff
+lazygit
+git commit -m "emma: add execute 1 cinematic effect"
+git push
+tokei
+ls src
+y
+config nu
+source $nu.config-path
+y
+hx .
+y
+btop
+y
+btop
+y
+git diff
+lazygit
+z ....
+z windlight/
+hx .
+git status
+lazygit
+y
+git status
+lazygit
+git status
+lazygit
+git status
+open --help
+^open --help
+start --help
+ghostty --help
+ghostty +help
+ghostty -e htop
+ghostty --help
+ghostty ghostty +list-actions
+ghostty +list-actions
+hx ~/.config/ghostty/
+man ghostty
+ghostty --gtk-single-instance=true
+hello
+exit
+exit
+clear
+htop
+btop
+ghostty --gtk-single-instance=true
+exit
+exit
+hx ~/.config/hypr/hyprland.conf
+hx .config/ghostty/
+ghostty --version
+yay -Syu ghostty
+yay -S ghostty
+ghostty -e nu
+man ghostty
+yay -R ghostty
+yay -S ghostty-git
+yay -S ghostty
+ghostty
+ghostty -e nu 
+yay -R ghostty
+pacman -S ghostty
+sudo pacman -S ghostty
+z windlight/
+z ..
+realpath .
+hx .
+git status
+git add .
+git commit -m "grid_system: move from rust to gdscript"
+git status
+hx .
+git status
+git add .
+git commit -m "greatly optimize sprite_copy by caching results"
+git push
+y
+z ..
+hx convert_story_modules.rs
+chmod +x convert_story_modules.rs
+./convert_story_modules.rs
+hx convert_story_modules.rs
+./convert_story_modules.rs
+hx .
+./convert_story_modules.rs
+cargo -Zscript convert_story_modules.rs
+mv Cargo.toml Cargo.toml.old
+cargo -Zscript convert_story_modules.rs
+hx .
+cargo -Zscript convert_story_modules.rs
+./convert_story_modules.rs
+hx .
+./convert_story_modules.rs
+hx convert_story_modules.rs
+cargo -Zscript convert_story_modules.rs
+ls
+cargo
+cargo test
+cargo -Zscript convert_story_modules.rs
+ls
+ls | cargo
+ls | rg cargo
+ls .cargo/
+bat .cargo/config.toml
+mv -r src src-old
+mv src src-old
+cargo -Zscript convert_story_modules.rs
+cargo run --manifest-path convert_story_modules.rs
+cargo run --manifest-path -Zscript convert_story_modules.rs
+cargo run -ZScript --manifest-path convert_story_modules.rs
+cargo run -Zscript --manifest-path convert_story_modules.rs
+mv .cargo/ .cargo-old/
+ls
+rustup update
+rustup default nightly
+mv rust-toolchain.toml rust-toolchain-old.toml
+ls
+hx convert_story_modules.rs
+chmod +x convert_story_modules.rs
+./convert_story_modules.rs
+hx convert_story_modules.rs
+./convert_story_modules.rs
+rustup update
+./convert_story_modules.rs
+cargo run -Zscript --manifest-path convert_story_modules.rs
+hx convert_story_modules.rs
+./convert_story_modules.rs
+hx .
+./convert_story_modules.rs
+hx .
+cargo add -Zscript --manifest-path convert_story_modules.rs serde serde_json ron
+hx convert_story_modules.rs
+./convert_story_modules.rs
+hx convert_story_modules.rs
+./convert_story_modules.rs
+hx convert_story_modules.rs
+touch rust-project.json
+hx convert_story_modules.rs
+hx rust-project.json
+rm rust-project.json
+hx .
+clear
+helix
+./convert_story_modules.rs
+:q
+exit
+hx .
+exit
+zellij
+./convert_story_modules.rs
+cargo add -Zscript --manifest-path convert_story_modules.rs anyhow
+./convert_story_modules.rs
+hx .
+./convert_story_modules.rs
+rm rust-project.json
+rm convert_story_modules.rs
+ls story
+ls story | filter 
+ls story | filter |el| { el | path parse | extension }
+ls story | filter { |el| { el | path parse | extension } }
+ls story | filter { |el| { el | path parse | $extension } }
+ls story | filter { |el| { el | path parse | get extension } }
+ls story | filter { |el| { el | path parse | get extension == ".ron" } }
+ls story | each { |el| { el | path parse | get extension == ".ron" } }
+ls story | each { |el| el | path parse | get extension == ".ron" }
+ls story | each { |el| $el | path parse | get extension == ".ron" }
+ls story | each { |el| $el.name | path parse | get extension == ".ron" }
+ls story | each { |el| $el.name | path parse | get extension | == ".ron" }
+ls story | each { |el| $el.name | path parse | get extension }
+ls story | each { |el| $el.name | path parse | get extension == ".ron"  }
+ls story | each { |el| $el.name | path parse | get extension === ".ron"  }
+ls story | each { |el| $el.name | path parse | where extension === ".ron"  }
+ls story | each { |el| $el.name | path parse | where extension == ".ron"  }
+ls story | each { |el| $el.name | path parse | select extension == ".ron"  }
+ls story | each { |el| $el.name | path parse | select extension ".ron"  }
+ls story | each { |el| $el.name | path parse | select extension  }
+ls story | each { |el| $el.name | path parse | select extension | where extension == ".ron"  }
+ls story | each { |el| $el.name | path parse | select extension | $in == ".ron"  }
+ls story | each { |el| $el.name | path parse | select extension | $in  }
+ls story | each { |el| $el.name | path parse | select extension | $in == "ron" }
+ls story | each { |el| $el.name | path parse | select extension | $in.extension == "ron" }
+ls story | filter { |el| $el.name | path parse | select extension | $in.extension == "ron" }
+ls story | filter { |el| $el.name | path parse | select extension | $in.extension == "ron" } | each { |el| bat -p $el.name }
+ls story | filter { |el| $el.name | path parse | select extension | $in.extension == "ron" } | each { |el| {name: $el.name, content: bat -p $el.name }<\n>}
+ls story | filter { |el| $el.name | path parse | select extension | $in.extension == "ron" } | each { |el| {name: $el.name, content: bat -p $el.name }}
+ls story | filter { |el| $el.name | path parse | select extension | $in.extension == "ron" } | each { |el| bat -p $el.name | {name: $el.name, content: $in}}
+ls story | filter { |el| $el.name | path parse | select extension | $in.extension == "ron" } | each { |el| bat -p $el.name | {name: $el.name, content: $in}} | to nuon
+ls story | filter { |el| $el.name | path parse | select extension | $in.extension == "ron" } | each { |el| bat -p $el.name | {name: $el.name, content: $in}} | to json
+ls story | filter { |el| $el.name | path parse | select extension | $in.extension == "ron" } | each { |el| bat -p $el.name | {name: $el.name, content: $in}} 
+ls story | filter { |el| $el.name | path parse | select extension | $in.extension == "ron" } | each { |el| bat -p $el.name }
+y
+mkdir json
+z ..
+touch convert_story.nu
+hx convert_story.nu
+./convert_story.nu
+help from nuon
+y
+./convert_story.nu
+z ..
+./convert_story.nu
+hx .
+hx convert_story.nu
+./convert_story.nu
+hx convert_story.nu
+./convert_story.nu
+ls story/json/
+hx convert_story.nu
+rm story/json/amelia.part1.execute.story.ron
+./convert_story.nu
+hx convert_story.nu
+./convert_story.nu
+ls story/json/
+rm story/json/*
+hx convert_story.nu
+./convert_story.nu
+y
+./convert_story.nu
+z ..
+./convert_story.nu
+hx convert_story.nu
+./convert_story.nu
+hx convert_story.nu
+y
+./convert_story.nu
+z ..
+./convert_story.nu
+y
+z ..
+y
+nufmt
+nufmt bjorn.execute.story.nuon
+hx convert_story.nu
+z ..
+hx convert_story.nu
+./convert_story.nu
+y
+hx convert_story.nu
+z ..
+hx convert_story.nu
+./convert_story.nu
+y
+z ..
+hx convert_story.nu
+y
+z ..
+./convert_story.nu
+y
+open amelia.part1.execute.story.nuon | to nuon
+y
+open amelia.part1.execute.story.nuon | to nuon
+open amelia.part1.execute.story.nuon 
+open amelia.part1.execute.story.nuon | to json
+open amelia.part1.execute.story.nuon | to nuon
+open amelia.part1.execute.story.nuon | to nuon -s
+open amelia.part1.midfight1.story.ron
+open amelia.part1.midfight1.story.ron | to json
+open amelia.part1.midfight1.story.nuon | to toml
+open amelia.part1.execute.story.nuon | to toml
+hx convert_story.nu
+z ..
+hx convert_story.nu
+./convert_story.nu
+y
+git status
+git status | rg toml
+rm amelia.part1.execute.story.toml amelia.part1.midfight1.story.toml
+hx convert_story.nu
+./convert_story.nu
+y
+hx convert_story.nu
+z ..
+hx convert_story.nu
+./convert_story.nu
+y
+hx convert_story.nu
+./convert_story.nu
+hx convert_story.nu
+./convert_story.nu
+y
+./convert_story.nu
+y
+hx .
+./convert_story.nu
+hx .
+./convert_story.nu
+hx .
+zi windlight
+hx .
+y
+git status
+git add .
+git commit -m "story: move from rust to gdscript"
+git push
+y
+hx .
+git status
+git add .
+git commit -m "remove dev console"
+git push
+y
+rm .cargo-old/
+rm -r .cargo-old/ 
+git status
+git add .
+git commit -m "remove rust gdnative module"
+git commit --amend
+git status
+git reset HEAD^
+hx .
+godot-3.6 
+btop
+hx .
+git log --oneline
+git status
+git add .
+git commit -m "remove rust gdnative module and fix a lot of errors"
+git push
+git checkout 232adce
+git status
+hx .
+git status
+git checkout main
+git reflog
+git checkout dev
+git stash
+git checkout dev
+git status
+git cherry-pick -n 232adce
+git status
+git cherry-pick --abort
+git status
+git diff
+git merge --abort
+git status
+git cherry-pick --quit
+git cherry-pick --abort
+git status
+git reset HEAD
+git status
+git diff
+lazygit
+git status
+git commit -m "cherry pick 232adce"
+git reset --hard
+git status
+z share/wisp
+git diff
+git status
+git add .
+git commit -m "connect transition to disabled state on init"
+git push
+z ..
+git status
+git add .
+git commit -m "bump wisp"
+git status
+git push
+hx .
+y
+hx .
+git submodule remove
+git status
+hx .
+git status
+git add .
+exit
+hx .
+git status
+git add .
+git commit -m "remove legacy code and stray files"
+git push
+hx .
+git diff
+git status
+git add .
+git commit -m "delete more shit and change project settings"
+git push
+btop
+hyperctl
+hyprctl
+hyprctl clients
+hyprctl clients | rg godot
+hx .
+godot-3.6 -v
+godot-3.6 --debug
+hx .
+hyperland --version
+hyprland --version
+pacman -Q hyprland
+pacman -Qi hyprland
+sudo pacman -S hyprland
+hx .
+hyprctl clients | rg godot
+hyprctl clients 
+hx .
+zi windlight
+hx .
+__GLX_VENDOR_LIBRARY_NAME=nvidia godot-3.6 
+hx .
+zi windlight
+mv /mnt/ssd2/wyvern/windlight windlight
+ls windlight/
+z windlight
+hx .
+got statis
+git status
+git add .
+git commit -m "update textures to use vram compression"
+git push
+git status
+zi windlight
+git status
+ls vram_usage
+bat vram_usage
+mv vram_usage vram_usage.csv
+open vram_usage.csv
+explore vram_usage.csv
+explore
+open vram_usage.csv | explore
+btop
+godot-3.6 --help
+godot-3.6 --help | rg import
+open vram_usage_01.csv | explore
+ls .import
+auto-cpufreq 
+auto-cpufreq-gtk 
+btop
+godot-3.6 -e --no-window
+glxinfo | grep "OpenGL version"
+hx .
+git diff
+lazygit
+hx .
+exit
+hx .
+y
+fd
+fd execute_amelia
+y
+fd execute_amelia | split "\n"
+fd execute_amelia | split
+fd execute_amelia | split list
+fd execute_amelia | split list "\n"
+fd execute_amelia | split row
+fd execute_amelia | split row "\n"
+fd execute_amelia | split row "\n" | each {|el| mv $el ("~/windlight-old-files" | path join $el)}
+mkdir ~/windlight-old-files
+fd execute_amelia | split row "\n" | each {|el| mv $el ("~/windlight-old-files" | path join $el)}
+fd execute_amelia | split row "\n" | each {|el| $el}
+fd execute_amelia | split row "\n" | each {|el| mv $el "~/windlight-old-files" | path join $el}
+fd execute_amelia | split row "\n" | each {|el| mv $el ("~/windlight-old-files" | path join $el)}
+fd execute_amelia | split row "\n" | each {|el| ("~/windlight-old-files" | path join $el)}
+fd execute_amelia | split row "\n" | each {|el| mv -f $el ("~/windlight-old-files" | path join $el)}
+mv --help
+fd execute_amelia | split row "\n" | each {|el| let f = ("~/windlight-old-files" | path join $el); $f }
+fd execute_amelia | split row "\n" | each {|el| let f = ("~/windlight-old-files" | path join $el); mkdir -p $f; mv $el $f }
+mkdir --help
+fd execute_amelia | split row "\n" | each {|el| let f = ("~/windlight-old-files" | path join $el); mkdir $f; mv $el $f }
+y
+fd execute_amelia | split row "\n" 
+ls
+fd windlight-old-files
+y
+mv windlight-old-files/ ~/windlight-old-files/
+ls ~/windlight-old-files/
+ls ~/windlight-old-files/windlight-old-files/
+fd execute_amelia | split row "\n"
+hx .
+open vram_usage_02.csv
+open vram_usage_02.csv | sort-by usage
+open vram_usage_02.csv | sort-by Usage
+open vram_usage_02.csv | update Usage Usage | to filiesize
+open vram_usage_02.csv | update Usage Usage | into filesize
+open vram_usage_02.csv | update Usage (Usage | into filesize)
+open vram_usage_02.csv | let u = (Usage | into filesize); update Usage $u
+open vram_usage_02.csv |  u = (Usage | into filesize); update Usage $u
+open vram_usage_02.csv | update Usage ($in.Usage | into filesize)
+open vram_usage_02.csv | update Usage ($in | get Usage | into filesize)
+open vram_usage_02.csv | update Usage into filesize
+open vram_usage_02.csv | update Usage (into filesize)
+open vram_usage_02.csv | update Usage {|row| $row | into filesize}
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize}
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | sort-by Usage
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | sort-by Usage | take 40
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0 
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | take 50
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | sort-by Usage | take 50
+open vram_usage_02.csv | explore
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage | take 50
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage 
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage | sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage | select Usage | sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage | select Usage 
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage | get Usage
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage | get Usage | sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage | get Usage | into list
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage | get Usage | to list
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" == "" | sort-by Usage | get Usage | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | reject "Resource Path" == "" | sort-by Usage | get Usage | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | sort-by Usage 
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | sort-by Usage | take 150 | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | sort-by Usage desc | take 150 | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | sort-descending Usage | take 150 | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 | take 10
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 | take 10 | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 | take 30
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 | take 30 | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 | take 50 | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 | take 80 | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 | take 160 | math sum
+open vram_usage_02.csv | update Usage {|row| $row.Usage | into filesize} | where Usage > 0B | where "Resource Path" != "" | take 150 | take 70 
+git status
+git add .
+git commit
+git add .
+rm .git/index.lock
+git add .
+git status
+git commit -m "optimize vram usage and clean up logs"
+git push
+yay -S discord
+auto-cpufreq-gtk 
+btop
+auto-cpufreq-gtk 
+btop
+sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh
+bash -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+ls -l /bin/sh
+dos2unix
+yay -S vencord-installer-cli-bin
+vencord-installer-cli
+vencordinstallercli 
+sudo vencordinstallercli 
+z windlight
+git status
+git stash
+git status
+btop
+auto-cpufreq-gtk 
+git stash apply
+git restore world/beach/beach.tscn
+git stash apply
+git status
+git add .
+git commit -m "replace mipmap based anti aliasing with blur based anti aliasing"
+git push
+pacman -S git-delta
+sudo pacman -S git-delta
+hx ~/.gitconfig
+git status
+git diff
+git add .
+git commit -m "add vram usage report"
+git push
+hx .
+git status
+ibeacon --help
+hx .
+hyprctl clients 
+hyprctl reload
+hx .
+git status
+git add .
+git commit -m "emma: make gameplay much smoother"
+git puhs
+git push
+hx .
+git status
+git add .
+git commit -m "emma: simplify combos and replace backstep trap with improved evade trap"
+git push
+hx .
+git status
+git add .
+git diff
+git restore --staged .
+git status
+git diff
+git status
+git add .
+git commit -m "emma: add feints"
+git push
+z windlight
+hx .
+git diff
+hx .
+git status
+git add -p
+git status
+git commit -m "emma: add quickstep vfx and sfx" 
+git add .
+git commit -m "emma: improve blocks and parries"
+git status
+hx .
+git status
+git add .
+git commit -m "slightly improve execute prompt"
+hx .
+git status
+git add .
+git commit -m "foe: improve stagger state"
+git push
+hx .
+y
+git status
+git add .
+git commit -m "emma: disable evade trap feints from evade traps"
+git push
+hx .
+yh
+y
+ls
+./convert_story.nu
+hx .
+./convert_story.nu
+hx .
+./convert_story.nu
+hx .
+./convert_story.nu
+hx .
+git status
+git diff
+git add .
+git commit -m "emma: improve execute 1"
+git push
+xdg-mime query default inode/directory
+xdg-mime default nautilus.desktop inode/directory
+xdg-mime query default inode/directory
+xdg-mime default nautilus.desktop inode/directory
+xdg-mime query default inode/directory
+z ~
+xdg-mime default nautilus.desktop inode/directory
+xdg-mime query default inode/directory
+ls -l .config/mimeapps.list
+hx .
+hx .config/mimeapps.list
+ls -l ~/.local/share/applications/mimeinfo.cache
+grep -Ri 'inode/directory' ~/.config/mimeapps.list ~/.local/share/applications/mimeapps.list
+xdg-open .
+grep -Ri 'inode/directory' /usr/share/applications/mimeapps.list /etc/xdg/mimeapps.list 2>/dev/null
+which xdg-open
+bat /usr/local/share/applications/mimeapps.list
+bat /usr/share/applications/mimeapps.list
+hx .config/mimeapps.list
+xdg-mime query default inode/directory
+xdg-mime set
+xdg-mime default nautilus.desktop inode/directory
+xdg-mime query default nautilus.desktop
+xdg-mime query default inode/directory
+xdg-mime query inode/directory
+xdg-mime query
+xdg-mime query --help
+bat ~/.config/mimeapps.list
+bat /etc/xdg/mimeapps.list
+bat /etc/xdg/defaults.list
+~/.local/share/applications/defaults.list
+bat ~/.local/share/applications/defaults.list
+bat /usr/share/applications/mimeapps.list
+bat /usr/share/applications/defaults.list
+bat /usr/local/share/applications/mimeapps.list
+nautilus.desktop
+dex
+xdg-mime default org.gnome.Nautilus.desktop inode/directory
+xdg-mime query inode/directory
+xdg-mime query default inode/directory
+xdg-open .
+btop
+hx .
+git status
+git add .
+git commit -m "update foe posture bar"
+git push
+git commit --amend
+git push
+hx .
+git status
+git diff
+hx .
+y
+./convert_story.nu
+hx .
+git status
+git add .
+git commit -m "make emma more aggressive in phase 2"
+git push
+hx .
+git status
+git add .
+git commit -m "small visual fixes"
+git push
+hx .
+git status
+git add .
+git commit -m "emma: fix evade trap into gapcloser tracking"
+git push
+hx .
+git status
+git add .
+git commit -m "emma: add rest on high posture"
+git push
+hx .
+tokei .
+yay -S tokei
+tokei .
+tokei share
+ls
+tokei characters
+tokei gui
+tokei addons
+git status
+zi windlight
+git status
+git diff
+hx .
+git pull
+git diff
+git status
+git restore world/beach/beach.tscn characters/foes/emma/emma.tscn
+git pull
+git status
+git pull --recurse-submodules
+git status
+hx .
+git status
+git add .
+git status
+git restore --staged .
+git status
+z share/gd-maybe/
+ls
+git status
+git diff
+git add .
+git commit -m "add expect method"
+git push
+z ..
+z wisp
+ls
+git status
+git diff
+git add .
+git commit -m "add (useless) post transition signal"
+git push
+z ..
+git status
+git add share/gd-maybe/ share/wisp/
+git status
+git commit -m "bump deps"
+git push
+git add .
+git status
+git commit -m "add small details and sounds"
+git push
+./build/x11/Windlight.x86_64
+ls ./build/x11/
+ls ./build/x11/Windlight.x86_64
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+./
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+git status
+git restore share/slow_mo.gd
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx. 
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+git status
+git restore world/beach/beach.tscn 
+git restore characters/player/player.tscn world/beach/beach.tscn characters/character.tres 
+git status
+git add .
+git commit -m "make the game exportable"
+git push
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+hx 
+./
+./build/x11/Windlight.x86_64
+hx .
+./build/x11/Windlight.x86_64
+hx .
+git status
+git add .
+git commit -m "finally fix hit stop and remove slow mo"
+git push
+hx .
+y
+ls
+./convert_story.nu
+hx .
+git status
+git add .
+git commit -m "random fixes and changes"
+git push
+yay -S discord
+yay -Sy 
+yay -S discord
+z wind anim
+git status
+git pull
+y
+hx .
+y
+wyrdir-cli run -p -a "emma/pipelines/execute-02.ron"
+hx .
+btop
+hx .
+y
+hx .
+wyrdir-cli run -p -a "emma/pipelines/execute-02.ron"
+y
+wyrdir-cli run -p -a "emma/pipelines/execute-02.ron"
+git status
+y
+git status
+git add .
+git commit -m "emma: render execute 02 (first attempt)"
+git push
+zi windlight
+hx .
+opentabletdriver
+otd
+otd --help
+otd start
+systemctl --user enable opentabletdriver.service --now
+otd
+ls
+z wyrdir
+ls
+hx .
+cargo install --path wyrdir-cli/
+hx .
+rustup update
+rustup component add rust-analyzer
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+hx .
+hx ~/.config
+bash
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli run 
+wyrdir-cli run -c
+zi wind anim
+git status
+wyrdir-cli run -p -a -c all "emma/pipelines/execute-02.ron"
+git status
+git restore .
+git status
+git clean 
+git clean -f
+git status
+hx .
+y
+ls 
+y
+exit
+wyrdir-cli run -p -a -c all "emma/pipelines/execute-02.ron"
+y
+git status
+git add .
+git commit -m "emma: render `emma_blood` layer"
+git push
+y
+btop
+hx .
+wyrdir-cli run -p -a -c all "emma/pipelines/execute-02.ron"
+hx .
+wyrdir-cli run -p -a -c all "emma/pipelines/execute-02.ron"
+hx .
+wyrdir-cli run -p -a -c all "emma/pipelines/execute-02.ron"
+hx .
+wyrdir-cli run -p -a -c all "emma/pipelines/execute-02.ron"
+y
+wyrdir-cli export emma/pipelines/execute-02.ron --output emma/renders/execute-02/execute-02-ch/$execute_2_ch.aseprite
+y
+btop
+y
+wyrdir-cli run -p -a -c none "emma/pipelines/execute-02.ron"
+git status
+git restore frame_end.py render.py view_layers.py
+git clean frame_end.py render.py view_layers.py
+git clean -i
+y
+wyrdir-cli run -p -a -c none "emma/pipelines/execute-02.ron"
+wyrdir-cli run -p -a "emma/pipelines/execute-02.ron"
+y
+yay -S osu
+yay -Sy
+yay -S osu\
+yay -S osu
+wyrdir-cli run -p -a "emma/pipelines/execute-02.ron"
+btop
+wine cmd
+y
+y
+yay -S osu-lazer
+git status
+git clean -i
+wyrdir-cli run -p -c all "emma/pipelines/execute-02.ron"
+wyrdir-cli export emma/pipelines/execute-02.ron --output emma/renders/execute-02/execute-02-ch/$execute_2_ch.aseprite
+y
+git status
+y
+sudo -u gdm dbus-launch gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'
+sudo dbus-launch gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'
+hx ~/.config
+btop
+yay -R osu-lazer
+chmod +x ~/bin/osu.AppImage
+y
+xinput
+gsettings
+gsettings   get   org.gnome.desktop.peripherals.mouse   accel-profile
+gsettings  set  org.gnome.desktop.peripherals.mouse  accel-profile  flat
+gsettings   get   org.gnome.desktop.peripherals.mouse   accel-profile
+z windlight
+zi windlight
+y
+zi wind anim
+y
+hx .
+git status
+btop
+zi wind anim
+yu
+y
+wyrdir-cli run --help
+wyrdir-cli run -p -c none -a -f -t 4 "emma/pipelines/execute-02.ron"
+y
+wyrdir-cli run -p -c all -a -f "emma/pipelines/execute-02.ron"
+wyrdir-cli run -p -c none -a -f -t 4 "emma/pipelines/execute-02.ron"
+y
+z ...
+git status
+git add .
+git commit -m "emma: render execute 02 (second attempt)"
+git push
+yay -S smassh-bin
+ssmash
+smash
+smassh
+vencordinstallercli 
+sudo vencordinstallercli 
+zi wind anim
+y
+z windlight
+zi windlight
+aseprite --help
+aseprite --help | rg sheet
+aseprite --frames
+aseprite --help
+hx .
+git status
+hx .
+git restore addons/AsepriteWizard/aseprite/aseprite.gd
+git status
+git add .
+git commit -m "emma: add execute 02 animation and shaders"
+git push
+git pull
+git pull --rebase
+git status
+git push
+hx .
+git status
+git add .
+git commit -m "emma: add execute 2 state"
+git push
+hx .
+hx .
+pacman -Syu
+yay -Qi haskell
+yay -Qi ghc
+pacman -Qtdq
+yay -Qtdq
+yay -Qt
+yay -Qt | rg haskell
+yay -Qtd
+pacman -Qi pandoc
+sudo pacman -S --needed base-devel<\n>git clone https://aur.archlinux.org/paru.git<\n>cd paru<\n>makepkg -si
+z ..
+paru
+paru -Q reloaded-ii
+paru -Q reloaded-2
+paru -Q protontricks
+paru -Ss protontricks
+paru -S protontricks
+yay -Syu
+btop
+gh
+ghostty
+btop
+protontricks -l
+realpath .
+export WINEPREFIX="/home/calinp/.local/share/Steam/steamapps/compatdata/2161700/pfx"
+WINEPREFIX="/home/calinp/.local/share/Steam/steamapps/compatdata/2161700/pfx"
+$env.WINEPREFIX="/home/calinp/.local/share/Steam/steamapps/compatdata/2161700/pfx"
+WINEPREFIX="/home/calinp/.local/share/Steam/steamapps/compatdata/2161700/pfx" wine R2Setup.exe --dependenciesonly
+/home/calinp/.local/share/Steam/steamapps/compatdata/2161700/pfx
+/home/calinp/.local/share/Steam/steamapps/compatdata/2161700/
+/home/calinp/.local/share/Steam/steamapps/compatdata/
+ls
+z ..
+z ~
+WINEPREFIX="/mnt/ssd2/SteamLibrary/steamapps/compatdata/2161700/pfx" wine R2Setup.exe --dependenciesonly
+ln -s "/home/calinp/.wine/drive_c/users/calinp/AppData/Roaming/Reloaded-Mod-Loader-II" "/mnt/ssd2/SteamLibrary/steamapps/compatdata/2161700/pfx/drive_c/users/steamuser/AppData/Roaming/Reloaded-Mod-Loader-II"
+ls "/mnt/ssd2/SteamLibrary/steamapps/compatdata/2161700/pfx/drive_c/users/steamuser/AppData/Roaming/Reloaded-Mod-Loader-II"
+hx .
+paru -S quickshell
+gh repo clone caelestia-dots/scripts
+gh repo clone caelestia-dots/scripts caelestia-scripts
+z caelestia-scripts/
+./install/scripts.fish
+paru -S fish
+caelestia
+ls .local/bin
+ls .local/
+ls .local/bin
+./install/scripts.fish
+./install/scripts.fish
+caelestia
+ls .local/bin
+ls ~/.local/bin
+z ..
+hx .
+source $nu.config-path
+caelestia
+caelestia install 
+caelestia install shell
+btop
+hx .
+caelestia 
+caelestia
+caelestia scheme
+caelestia scheme --help
+caelestia scheme oldworld
+caelestia shell
+btop
+caelestia shell
+caelestia 
+& caelestia shell
+job spawn "caelestia shell"
+job spawn {|| caelestia shell}
+caelestia
+caelestia wallpaper 
+caelestia wallpaper ~/the-color-gray.png
+cp the-color-gray.png ~/Pictures/Wallpapers/the-color-gray.png
+cp -f the-color-gray.png ~/Pictures/Wallpapers/the-color-gray.png
+cp --help the-color-gray.png ~/Pictures/Wallpapers/the-color-gray.png
+cp -r the-color-gray.png ~/Pictures/Wallpapers/the-color-gray.png
+mkdir ~/Pictures/Wallpapers
+cp the-color-gray.png ~/Pictures/Wallpapers/the-color-gray.png
+caelestia wallpaper
+btop
+job spawn {|| caelestia shell}
+z .config/
+ls
+ls caelestia/
+ls
+ls caelestia/
+z caelestia/
+ls
+touch shell.qml
+hx .
+ghostty
+hx .
+z ..
+hx .
+z ..
+ghostty +list-themes
+:q
+mkdir ~/.config/ghostty/themes
+ls ~/.config/ghostty/
+touch ~/.config/ghostty/themes/base-16-black-metal
+hx 
+hx .
+exit
+hx .
+exit
+caelestia
+hx .
+bash
+hx .
+bash
+hx .
+bash
+exit
+hx .
+systemd
+systemctl
+hx .
+bash
+systemctl --user enable caelestia-shell.service --now
+systemctl enable caelestia-shell.service
+systemctl enable caelestia-shell.service --now
+systemctl --user enable caelestia-shell.service --now
+systemctl --user enable caelestia-shell.service 
+hx .
+nu -c "caelestia shell"
+hx .
+sleep 1ms && caelestia shell
+sleep 1ms and caelestia shell
+sleep 1ms; caelestia shell
+sleep 1000ms; caelestia shell
+hx .
+git clone https://github.com/tinted-theming/base16-rofi.git<\n>ln -s base16-rofi ~/.local/share/rofi/themes/<\n>rofi -theme base16-default-dark
+ln -s base16-rofi ~/.local/share/rofi/themes
+bash
+mkdir ~/.local/share/rofi/themes
+ln -s base16-rofi ~/.local/share/rofi/themes
+rofi -theme base16-default-dark
+ls .local/share/rofi/theme
+ls .local/share/rofi/themes
+rm .local/share/rofi/themes/base16-rofi
+bash
+rofi -theme base16-default-dark
+ls .local/share/rofi/themes
+ls .local/share/rofi/themes/base16-rofi
+ls .local/share/rofi/themes/base16-rofi/
+rm .local/share/rofi/themes/base16-rofi
+ls base16-rofi/
+ls base16-rofi/themes/
+ln -s base16-rofi ~/.local/share/rofi/themes/
+ls base16-rofi/themes/
+ls .local/share/rofi/themes/base16-rofi/
+ls .local/share/rofi/themes
+ls --help
+rm .local/share/rofi/themes/base16-rofi
+^ln -s base16-rofi ~/.local/share/rofi/themes/
+rofi -theme base16-default-dark
+ls
+rm .local/share/rofi/themes/base16-rofi
+ls base16-rofi/themes/
+ls base16-rofi/themes/**
+cp base16-rofi/themes/** .local/share/rofi/themes/**
+cp base16-rofi/themes/*.rasi .local/share/rofi/themes/*.rasi
+cp base16-rofi/themes/*.rasi .local/share/rofi/themes/*
+cp base16-rofi/themes/*.rasi .local/share/rofi/themes/
+ls .local/share/rofi/themes
+rofi -theme base16-default-dark
+ls .local/share/rofi/themes | rg black
+hx .
+rofi -h
+rofi -h | radius
+rofi -h | rg radius
+rofi -dump-config
+rofi -dump-config | radius
+rofi -dump-config | rg radius
+hx .
+hyprctl layers
+hyprctl layers | rg rofi
+watch "hyprctl layers" | rg rofi
+watch {|| hyprctl layers | rg rofi} 
+watch "hyprctl layers | rg rofi"
+watch "hyprctl layers"
+watch --help "hyprctl layers"
+loop { hyprctl layers | rg rofi; sleep 20ms }
+loop { hyprctl layers; sleep 20ms }
+loop { hyprctl layers; sleep 20ms; clear }
+hx .local/share/rofi/themes/
+hx .
+exit
+btop
+hx .config/caelestia/shell.qml
+mkdir .config/quickshell
+cp .config/caelestia/shell.qml .config/quickshell/shell.qml
+caelestia shell
+rm .config/quickshell/
+rm -r .config/quickshell/
+hx .local/share/caelestia/shell/shell.qml
+mkdir .config/quickshell
+cp .config/caelestia/shell.qml .config/quickshell/shell.qml
+hx .local/share/caelestia/shell/shell.qml
+ls .local/share/caelestia/
+ls .local/share/caelestia/shell/
+ls .local/share/caelestia/shell/config/
+ls .local/share/caelestia/shell/modules/
+ls .local/share/caelestia/shell/assets/
+ls .local/share/caelestia/shell/utils/
+ls .local/share/caelestia/shell/
+ls .local/share/caelestia/shell/modules/
+ls .local/share/caelestia/shell/modules/bar
+ls .local/share/caelestia/shell/modules/bar/popouts/
+ls .local/share/caelestia/shell/
+ls .local/share/caelestia/shell/config/
+bat .local/share/caelestia/shell/config/Appearance.qml
+caelestia
+caelestia scheme
+caelestia shell
+caelestia scheme base16
+caelestia scheme shadotheme
+paru -Qi qrt
+paru -Qi qt
+paru -Qi qt-bin
+paru -Qi qt-git
+paru -Q 
+paru -Q | rg qt
+btop
+paru -Syu
+rm .local/share/caelestia/
+rm -r .local/share/caelestia/
+ls
+z caelestia-scripts/
+ls
+install/scripts.fish
+pacman -S uwsm libnewt
+sudo pacman -S uwsm libnewt
+job spawn {|| caelestia shell}
+caelestia shell
+z ..
+ls .bash_profile
+hx .bash_profile
+uwsm
+sudo systemctl disable ly.service
+z caelestia-scripts/
+ls
+caelestia shell
+which caelestia 
+rm ~/.local/bin/caelestia
+install/scripts.fish
+caelestia shell
+fish
+caelestia install shell
+hyprctl version
+paru -S hyprland-git
+caelestia install hypr
+paru -R aquamarine
+paru -R hyprland
+btop
+hx .
+z ..
+hyprpanel
+btop
+hx .
+paru -S pywal
+btop
+hx .
+btop
+paru -S matugen
+vencordinstallercli 
+sudo vencordinstallercli 
+btop
+hx .
+systemctl --user disable
+systemctl --user disable caelestia-shell.service
+hyprctl layers
+hx .
+ghostty +list-themes
+hx .
+paru -S spotify-player-full
+paru -S waybar
+gh repo clone T3rmn/Waybar-MacOS-Style .config/waybar
+htop
+z /mnt/hdd/Downloads/
+7z
+7z x SF-Pro.dmg
+sudo yazi
+y 
+sudo y
+sudo yazi
+z ~
+htop
+fc-cache -fv
+fc-list 
+fc-list | rg SF
+htop
+fc-list | rg SF
+fc-list | rg SF-Pro-Display
+y
+htop
+pkill waybar && hyprctl dispatch exec waybar 
+pkill waybar; hyprctl dispatch exec waybar 
+hx .config/waybar/
+exit
+exit
+pkill waybar
+zi wind anim
+git status
+y
+hx .
+htop
+wyrdir-cli run -p -c none -a -f -t 12 emma/pipelines/dead.ron
+hx .
+wyrdir-cli run -p -c none -a -f -t 12 emma/pipelines/dead.ron
+y
+hx .
+z ....
+hx .
+wyrdir-cli run -p -c none -a -f -t 12 emma/pipelines/dead.ron
+hx .
+wyrdir-cli run -p -c none -a -f -t 12 emma/pipelines/dead.ron
+hx .
+git status
+y
+git status
+git add .
+git commit -m "emma: export dead animation"
+git push
+hx .
+z
+z wind anim
+y
+zi windlight
+git status
+git diff
+git add -p
+git status
+git commit -m "emma: add execute 2"
+git push
+git log --oneline
+hx .config
+z ~
+hx .
+git status
+git add .
+git commit -m "emma: add dead state"
+git push
+hx .
+git status
+git add .
+git commit -m "emma: improve execute 2 effects"
+git push
+hx .config
+zi windlight
+git status
+hx .
+lazygit
+git status
+git commit -m "beach: add sand overlay texture"
+hx .
+git status
+git add .
+git commit -m "emma: execute 2 small details"
+git push
+hx .
+git status
+git add .
+git commit -m "emma: fix stagger after dead"
+git push
+hx .
+git status
+git add .
+git commit -m "fix corpse beating"
+git push
+ls
+y
+hx .
+y
+hx .
+git status
+git add .
+git commit -m "add basic achievement handling"
+git push
+git status
+hx .
+git status
+git add .
+git commit -m "fix emma gameplay and damage numbers"
+git push
+hx .
+git status
+git add .
+git commit -m "small fixes"
+git push
+hx .
+git status
+git add .
+git commit -m "add achievement layer"
+git push
+zi windlight
+git status
+./b
+./build/x11/Windlight.x86_64
+hx .
+git status
+git add .
+git commit -m "emma improvements"
+git push
+hx .
+git status
+git add .
+git commit -m "buff emma"
+git push
+git status
+y
+./convert_story.nu
+y
+./convert_story.nu
+y
+./convert_story.nu
+hx .
+paru -S rcedit
+which rcedit
+wine build/win/windlight.exe
+./build/x11/Windlight.x86_64
+zi wind anim
+zi wind
+git status
+git diff
+git add .
+git commit -m "small improvements"
+git push
+hx .
+git status
+git add .
+git commit -m "hitbox fixes"
+git push
+git status
+hx .
+git status
+git add .
+git commit -m "animation fixes"
+git push
+./build/x11/Windlight.x86_64
+wine build/win/windlight.exe
+y
+./convert_story.nu
+ls story/json/
+wine build/win/windlight.exe
+zip
+zip --help
+7zip
+which 7z
+7z --help
+y
+ls
+7z a windlight.exe readme.md
+7z --help
+7z windlight-emma-beta-01.zip windlight.exe readme.md
+7z a windlight-emma-beta-01.zip windlight.exe readme.md
+ls
+zi wind
+./build/win/windlight.exe
+wine build/win/windlight.exe
+which wine
+wine build/win/windlight.exe
+y
+hx .
+z build/win/
+7z a windlight-emma-beta-01.zip windlight.exe readme.md
+wine build/win/windlight.exe
+wine windlight.exe
+hx .
+z ..
+hx .
+zi windlight
+git status
+git diff
+git add .
+git commit -m "fix export"
+git push
+hx .
+git status
+git diff
+git add .
+git commit -m "bug fixes"
+git push
+wine build/win/windlight.exe
+hx .
+git status
+git restore world/beach/beach.tscn 
+hx .
+git status
+git diff
+git status
+git add .
+git commit -m "bug fixes and decrease husk slash recovery"
+git push
+hx .
+wine build/win/windlight.exe
+hx .
+git status
+git add .
+wine build/win/windlight.exe
+hx .
+git status
+git diff
+git add .
+git commit -m "fix slash softlock and parry attack hitbox"
+git push
+hx .
+git add .
+git commit -m "husk: make quickstep lighter and smoother"
+git push
+hx .
+git status
+git add .
+git commit -m "emma: chill out with the evade traps"
+git push
+hx .
+git diff
+git status
+git restore characters/player/player.gd
+hx .
+git status
+git add .
+git status
+git restore --staged .
+git status
+git diff
+git add characters/foes/emma/emma.gd
+git status
+git commit -m "emma: recover posture if player is staggered"
+git push
+rcedit
+rcedit build/win/windlight.exe --set-icon icon.png
+rcedit build/win/windlight.exe --set-icon icon.ico
+git status
+win
+wine build/win/windlight.exe
+hx .
+git status
+git add .
+git status
+z share/wisp
+git status
+git diff
+git add .
+git commit -m "small style changes"
+git push
+z ..
+git status
+git add .
+git status
+git commit -m "husk: fix quickstep softlock"
+git push
+hx .
+git status
+git add .
+git commit -m "husk: improve hubris and add hubris cost for qs plus"
+git push
+hx .
+git status
+git add .
+git commit -m "disable revert on recovery hyper and hit state hyper states"
+git push
+hx .
+git status
+git diff
+git add .
+git commit -m "husk: only receive hubris on damage dealt"
+git push
+wine build/win/windlight.exe
+hx .
+paru -Su discord
+paru --help
+paru -S discord
+paru -Q discord
+paru -S discord
+paru -Sy
+paru -S discord
+paru -S figma
+zi windlight
+y
+sudo yazi
+paru -S figma-linux
+zi windlight
+y
+z downloads
+sudo yazi
+zi windlight
+sudo yazi
+top
+htop
+vencordinstallercli 
+sudo vencordinstallercli 
+zi windlight
+git status
+hx .
+git status
+git restore characters/particles/parry_sparks.tscn
+git status
+hx .
+git status
+git add .
+git commit -m "greatly improve clarity"
+git push
+hx .
+git status
+git diff
+git add .
+git commit -m "small claity improvements"
+git push
+zi windlight
+y
+git status
+git add .
+git commit -m "gui: import void assets"
+hx .
+git status
+git add .
+git commit -m "gui: add initial static mockup"
+git commit --amend
+git status
+git push
+hx .
+git status
+hx .
+git status
+git add .
+git commit -m "gui: void fix menu buttons not pressing"
+git push
+git status
+git add .
+git commit -m "gui: void add star particles"
+git push
+hx .
+git status
+git log --oneline
+git add .
+git commit -m "gui: void add cursor"
+git push
+hx .
+git status
+git diff
+git add .
+git commit -m "gui: void improve cursor"
+git push
+zi wind anim
+git status
+git pull
+ls
+bat readme.md
+wyrdir-cli help
+y
+zi wind anim
+ls
+wyrdir-cli run -p -a husk/v2/pipelines/void-dive.ron
+y
+wyrdir-cli run -p -a husk/v2/pipelines/void-dive.ron
+y
+git status
+git add .
+git log --oneline
+git commit -m "husk: export void dive"
+git push
+y
+hx .
+zi windlight
+hx .
+git status
+git add .
+git commit -m "gui: void add husk"
+git push
+hx .
+git status
+hx .
+git add .
+git commit -m "gui: void improve cursor"
+git push
+htop
+btop
+exit
+bottles-cli
+paru -Q
+paru --help
+paru -Q --help
+paru -Qs rivalcfg
+paru -Qs rival
+paru -Qii
+paru -Qi
+paru -Qi rivalcfg
+paru -Qsi rivalcfg
+paru -S rivalcfg
+rivalcfg
+rivalcfg --help
+rivalcfg --list
+rivlcfg
+rivalcfg
+rivalcfg --help
+rivalcfg -s 800
+rivalcfg -s 1600
+rivalcfg -s 800
+rivalcfg -e rainbow-breath
+rivalcfg -e steady
+rivalcfg -e off
+rivalcfg -e steady
+rivalcfg --z1 red
+rivalcfg --z1 black
+rivalcfg --z2 black
+rivalcfg --z3 black
+rivalcfg --z4 black
+rivalcfg --z4 #23545e
+rivalcfg --z4 23545e
+hx .
+git status
+git add .
+git commit -m "gui: void add static ability displays"
+git push
+hx .
+git status
+git add .
+git log --oneline
+git status
+git commit -m "gui: void add selection box for ability displays"
+git push
+hx .
+git status
+git add .
+git commit -m "gui: void add ability switching"
+git push
+hx .
+git status
+git add .
+git commit -m "gui: void hook everything up"
+git push
+ping google.com
+paru -Syu
+exit
+htop
+btop
+paru -S steam
+steam
+which steam
+killall steam
+steam
+paru -Sy
+paru -S steam
+paru -Syu
+steam
+killall steam
+steam
+killall steam
+sudo pacman -U /var/cache/pacman/pkg/adwaita-icon-theme-legacy-46.2-1-any.pkg.tar.zst
+paru -Q steam
+steam --version
+killall steam
+paru -Q adwaita
+paru -Q adwaita-icon-theme-legacy-46.2-2
+paru -Q adwaita-icon-theme-legacy
+paru -S adwaita-icon-theme-legacy 46.2-1
+steam
+killall steam
+steam
+killall steam
+paru -Qi adwaita-icon-theme-legacy
+paru -Q steam
+steam --rset
+killall steam
+steam --reset
+which steam-native
+which steam-native-runtime
+paru -S steam-native-runtime
+STEAM_RUNTIME=0 steam
+killall steam
+STEAM_RUNTIME=0 steam
+killallsteam
+killall steam
+paru -R steam
+paru -R steam-native-runtime
+paru -R steam
+paru -S steam
+steam
+killall steam
+hx .local/share/Steam/
+y
+paru -S steam-native
+paru -S steam-native-runtime
+steam-native
+paru -Sy
+paru -Syu
+steam-native
+killall steam
+killall steam-native
+steam-native
+killall steam
+which steam
+/usr/lib/steam/steam
+killall steam
+ldd steam
+which steam 
+which steam | get path
+which steam | get path | ldd
+ldd /usr/bin/steam
+ldd /usr/lib/steam/steam
+gdb
+paru -S gdb
+DEBUGGER=gdb steam
+killall steam
+pacman -Qs nvidia
+paru -S nvidia
+paru -S nvidia-utils
+paru -S lib32-libnm 
+steam
+killall steam
+killall rivalcfg
+paru -Qi lib32-amdvlk
+paru -S lib32-libxcursor
+steam
+killall steam
+cd ~/.steam/root/ubuntu12_32<\n>
+file * | grep ELF | cut -d: -f1 | LD_LIBRARY_PATH=. xargs ldd | grep 'not found' | sort | uniq
+file * | grep ELF | cut -d: -f1 | LD_LIBRARY_PATH=. xargs ldd | grep 'not found' | uniq
+file * | grep ELF | cut -d: -f1 | LD_LIBRARY_PATH=. xargs ldd | grep 'not found' 
+bash
+z ~
+coredumpctl info steam
+paru -S lib32-nvidia-utils
+steam 
+killall steam
+paru -Qs steam
+paru -Qs nvidia
+ls /var/cache/pacman/pkg/lib32-nvidia-utils*
+ls --help /var/cache/pacman/pkg/lib32-nvidia-utils*
+^ls /var/cache/pacman/pkg/lib32-nvidia-utils*
+sudo pacman -U /var/cache/pacman/pkg/lib32-nvidia-utils-575.57.08-1-x86_64.pkg.tar.zst
+y
+paru -Qs nvidia
+y
+paru -U lib32-nvidia-utils-575.64-1-x86_64.pkg.tar.zst
+steam 
+killall steam
+paru -Syu
+killall steam
+steam
+paru -Qs nvidia
+echo $env.SDL_VIDEODRIVER
+zi windlight
+git status
+git pull
+git status
+zi windlight
+git status
+git add .
+git status
+git commit -m "gui: add death screen mockup"
+git push
+paru -S rpcs3
+paru -S rpcs3-bin
+z /mnt/hdd
+fd demon
+killall rpcs3
+paru -R rpcs3-bin
+paru -S rpcs3-bin
+killall rpcs3
+zi windlight
+git status
+hx .
+git status
+git add .
+git commit -m "gui: add static death screen scene"
+git push
+hx .
+git status
+git add .
+git commit -m "gui: add death screen fade in and fade out"
+git push
+hx .
+git diff
+exit
+btop
+paru -S krita
+paru -Q krita
+paru -Qi krita
+paru -Qs krita
+paru -S krita-bin
+paru -S krita
+hx .
+git status
+git add .
+git commit -m "gui: add death screen transition to the void"
+git push
+hx .
+git status
+git add .
+git commit -m "husk: fix revert triggering randomly"
+git push
+hx .
+git status
+git add .
+git commit -m "gui: improve death screen fade in animation"
+git push
+hx .
+git status
+hx .
+git status
+git diff
+git add .
+git commit "balance changes and bug fixes"
+git push
+git status
+git add .
+git status
+git commit -m "balance changes and bug fixes"
+git status
+git push
+paru -Sy discrod
+paru -Sy discord
+paru -Sy
+paru -S discord
+paru -Syu 
+pacman -Rdd linux-firmware
+paru -Rdd linux-firmware
+pacman -Syu linux-firmware<\n>
+paru -Syu linux-firmware<\n>
+paru -Syu
+paru -S discord
+paru -Syyu
+discord --version
+paru -Qi discord
+git clone https://aur.archlinux.org/discord.git
+z discord
+makepg -si
+makepkg -si
+paru -S gconf
+makepkg -si
+which discord
+paru -Qi discord
+paru -S discord
+paru -Sy
+paru -Sy discord
+git pull
+git status
+paru -G discord
+yay -G discord
+yay -S discord
+ls
+git status
+z discord
+makepkg -si
+z ..
+paru -S discord
+paru -Sy
+paru clear
+yay -Syua
+paru -Syu
+paru -S discord
+ls
+sudo pacman -U discord-0.0.9-3-x86_64.pkg.tar.zst
+paru -S discord
+z ..
+ls
+ls discord/
+rm -rf discord/
+ls hdd
+ls /hdd
+cp /mnt/hdd/Downloads/discord-1_0.0.99-1-x86_64.pkg.tar.zst discord-1_0.0.99-1-x86_64.pkg.tar.zst
+ls discord-1_0.0.99-1-x86_64.pkg.tar.zst
+paru -U discord-1_0.0.99-1-x86_64.pkg.tar.zst
+paru -S discord
+paru -R discord
+paru -Sy discord
+paru -U discord-1_0.0.99-1-x86_64.pkg.tar.zst
+paru -Qi pipewire
+paru -Qi pulseaudio
+paru -Syu
+systemctl --user status pipewire
+systemctl --user enable pipewire
+systemctl --user status pipewire
+ls .local/state/wireplumber/
+rm -r .local/state/wireplumber/
+journalctl
+journalctl pipewire
+journalctl --help
+journalctl -g pipewire
+paru -Q pulseaudio
+paru -Qi pipewire-audio
+paru -Qi wireplumber
+paru -Qi pipewire-pulse
+paru -Qi pulseaudio
+pactl info
+pacman -Qs pulseaudio
+journalctl -b -1 -p 3
+systemctl --user status wireplumber
+paru -S hyprland
+paru -Syu
+paru -Qs hyprland
+systemctl --user status pipewire
+systemctl --user status wireplumber
+sudo pacman -Syu
+pacman -Qi upower
+systemctl --user status upower
+sudo systemctl enable --now upower.service
+systemctl --user enable --now pipewire pipewire-pulse wireplumber
+journalctl -xe
+systemctl --user status upower
+systemctl --user enable --now upower.service
+systemctl status upower
+journalctl -xe
+journalctl -b -1 -p 3
+coredumpctl gdb
+sudo pacman -Syu   
+paru -Qs xdg-desktop-portal-hyprland
+sudo pacman -S xdg-desktop-portal-wlr
+systemctl --user restart xdg-desktop-portal
+systemctl --user status xdg-desktop-portal
+hx .bashrc
+journalctl -b -1 -p 3
+hx .
+pacman -Qs upower
+systemctl status upower.service
+sudo pacman -Syu
+systemctl --user status xdg-desktop-portal
+systemctl --user status xdg-desktop-portal-gtk
+systemctl --user status xdg-desktop-portal-hyprland
+systemctl --user disable --now xdg-desktop-portal.service
+systemctl --user mask xdg-desktop-portal.service
+systemctl --user restart xdg-desktop-portal-hyprland.service
+systemctl --user status xdg-desktop-portal-hyprland
+systemctl --user status xdg-desktop-portal
+journalctl -b -1 -p 3
+journalctl --user -xe | grep spotify
+journalctl --user -xe | grep xdg-desktop-portal
+journalctl -xe
+bash
+systemctl --user status pipewire pipewire-pulse wireplumber
+sudo pacman -S xdg-desktop-portal-wlr
+systemctl --user stop xdg-desktop-portal-hyprland<\n>systemctl --user disable --now xdg-desktop-portal-hyprland<\n><\n>systemctl --user enable --now xdg-desktop-portal-wlr<\n>systemctl --user start xdg-desktop-portal-wlr
+journalctl --user -f
+systemctl --user stop xdg-desktop-portal-hyprland
+systemctl --user disable --now xdg-desktop-portal-hyprland
+systemctl --user mask xdg-desktop-portal-hyprland.service<\n>
+systemctl --user enable --now xdg-desktop-portal-wlr.service
+systemctl --user start xdg-desktop-portal-wlr.service
+systemctl --user status xdg-desktop-portal-wlr
+systemctl --user status xdg-desktop-portal-hyprland
+systemctl --user status xdg-desktop-portal-wlr
+journalctl --user -f
+pacman -Qi pipewire wireplumber xdg-desktop-portal-hyprland xdg-desktop-portal-wlr<\n>
+echo $XDG_DESKTOP_PORTAL
+journalctl --user -u pipewire -f
+paru -Syu
+journalctl -b -1 -p 3
+bat /home/calinp/.cache/hyprland/hyprlandCrashReport969.txt
+hx /home/calinp/.cache/hyprland/hyprlandCrashReport969.txt
+sudo pacman -R hyprland
+sudo pacman -R grimblast-git
+sudo pacman -R hyprland
+paru -S hyprland-git
+paru -S grmiblast-git
+paru -S grimblast-git
+paru -Syu
+vencordinstallercli 
+sudo vencordinstallercli 
+paru -S discord
+paru -Syu
+paru -Qs vesktop
+which vesktop
+paru -S vesktop
+systemctl --user status xdg-desktop-portal-hyprland
+systemctl --user unmask xdg-desktop-portal-hyprland
+systemctl --user status xdg-desktop-portal-hyprland
+systemctl --user start xdg-desktop-portal-hyprland
+systemctl --user status xdg-desktop-portal-hyprland
+hx .bashrc
+exit
+exit
+systemctl --user status xdg-desktop-portal-hyprland
+systemctl --user status xdg-desktop-portal-wlr
+systemctl --user status xdg-desktop-portal
+systemctl --user unmask xdg-desktop-portal
+systemctl --user enable --now xdg-desktop-portal-hyprland
+systemctl --user disable --now xdg-desktop-portal-wlr
+paru -Qs xdg-desktop-portal
+paru -R xdg-desktop-portal-wlr
+systemctl --user status xdg-desktop-portal
+systemctl --user status xdg-desktop-portal-hyprland
+sudo vencordinstallercli 
+hx .config/
+touch ~/.config/hypr/hyprland/nvidia.conf
+mkdir ~/.config/hypr/hyprland/
+ls .config/hypr/
+touch ~/.config/hypr/hyprland/nvidia.conf
+hx .config/
+nvidia-settings
+zi windlight anim
+git status
+git pull
+git status
+git add .
+git commit -m "husk: index emote 1 colors"
+git push
+y
+zi windlight
+hx .
+git status
+git add .
+git commit -m "husk: add emote 1"
+git push
+git status
+z wisp
+ls
+git status
+git diff
+git add .
+git commit -m "add validity check"
+git status
+git push
+z ..
+ls
+gh repo clone wisp
+z wisp
+git log --oneline
+git log -o
+git log -1
+git log --help
+git branch
+git branch --fetch
+git fetch
+git switch @godot-4
+git switch godot-4
+git switch godot4
+git pull
+hx .
+git status
+git add .
+git commit -m "add unhandled input"
+git push
+git show godot3:wisp.gd
+git show main:wisp.gd
+git status
+git add .
+git commit -m "ensure godot 3 feature parity"
+git push
+hx .
+git status
+hx .
+git show main:wisp.gd | hx
+git status
+git add .
+git commit -m "update readme.md"
+git push
+exit
+git status
+z ..
+git status
+paru -S bun
+paru -S bun-bin
+zi windlight
+git status
+z share/wisp
+git status
+git pull
+z ..
+git status
+git add .
+git commit -m "bump wisp"
+git push
+hx .
+z ..
+hx .
+hx *.gd
+hx .gd
+hx .
+rg characters/player/player.gd class
+rg class characters/player/player.gd
+rg class characters/player/player.gd --count
+git status
+y
+zi wind anim
+git status 
+git pull
+git status
+y
+hx .
+git status
+git add .
+git commit -m "husk: add idle 1 turn animations"
+git push
+zi windlight
+git status
+git pull --recurse-submodules
+hx .
+git status
+ls share
+touch share/second_order_dynamics.gd
+hx .
+fd movable.gd
+cp characters/movable.gd characters/movable_dynamic.gd
+hx .
+git status
+hx .
+y
+git status
+git reset --hard
+git status
+git clean
+git clean -i
+git status
+z wyrdir
+git status
+git diff
+git status
+git add .
+git commit -m "add cache modes"
+git push
+git log --oneline
+git status
+ls
+z wl-render-2/
+git status
+z ..
+hx .
+git push
+config nu
+z aseprite scripts
+ls
+git status
+git log --oneline
+hx .
+z wind anim
+git status
+git pull
+btop
+z wyrdir
+ls
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+hx .
+rustup update
+rustup list
+rustup show
+rust uninstall stable-x86_64-unknown-linux-gnu
+rustup uninstall stable-x86_64-unknown-linux-gnu
+rustup uninstall nightly-2024-06-09-x86_64-unknown-linux-gnu
+rustup uninstall 1.82.0-x86_64-unknown-linux-gnu
+rustup update
+which rust-analyzer 
+yay -Qi rust-analyzer
+paru -Q rust-analyzer
+rustup update
+hx .
+cargo install --path wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli help
+wyrdir-cli console run
+wyrdir-cli console help
+hx .
+hx .
+cargo install --path wyrdir-cli/
+which rust-analyzer 
+rust-analyzer
+rust-analyzer --version
+hx ~/.config
+hx --health rust
+hx -v
+hx -v
+cargo check
+cargo clean
+cargo check
+cargo check --workspace
+hx .
+cargo install --path wyrdir-cli/
+wyrdir-cli
+wyrdir-cli console help
+wyrdir-cli console run
+wyrdir-cli run
+hx .
+cargo install --path wyrdir-cli/
+cargo console run
+wyrdir-cli console run
+hx .
+git status
+wyrdir-cli console run -p -a husk/v2/pipelines/void-dive.ron
+ls
+mkdir .cargo
+touch .cargo/config.toml
+hx .
+git status
+cargo install --path wyrdir-cli/
+hx .
+ls wyrdir-cli/
+hx .
+cargo install --path wyrdir-cli/
+git status
+y
+wyrdir-cli run -p husk/v2/pipelines/walk-turn.ron
+wyrdir-cli run --help
+wyrdir-cli run -p -t 6 husk/v2/pipelines/walk-turn.ron
+y
+z wyrdir
+git status
+rm -r .cargo/
+hx .
+git restore wyrdir-cli/Cargo.toml
+rm Cargo.lock
+git status
+git restore Cargo.lock
+git status
+git add .
+git commit -m "reorganize cli main branch"
+git push
+git pull
+wyrdir-cli run -p -t 6 husk/v2/pipelines/walk-turn.ron
+git pull --rebase
+git push
+hx .
+git status
+git add .
+git commit -m "change some logs to debug level"
+git push
+cargo install --path wyrdir-cli/
+y
+ls
+ls 
+ls | each {|el| mv $el.name "$"+$el.name}
+ls | each {|el| mv $el.name "$" ++ $el.name}
+ls | each {|el| mv $el.name ("$" ++ $el.name)}
+ls
+y
+z ....
+z ..
+wyrdir-cli export husk/v2/pipelines/walk-turn.ron --output husk/v2/renders/walk-turn/walk-turn.aseprite
+y
+wyrdir-cli export husk/v2/pipelines/walk-turn.ron --output husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+y
+hx .
+hx .
+z aseprite scripts
+ls
+git pull
+wyrdir-cli run -p -t 6 husk/v2/pipelines/walk-turn.ron
+y
+wyrdir-cli run husk/v2/pipelines/walk-turn.ron
+y
+wyrdir-cli run -p -t 4 husk/v2/pipelines/walk-turn.ron
+wyrdir-cli export husk/v2/pipelines/walk-turn.ron --output husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+y
+wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+y
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+bat husk/v2/pipelines/void-dive.ron
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx angler_imp.lua
+z wyrdir
+hx .
+cargo install --path wyrdir-cli/
+ls
+git status
+git add .
+git commit -m "fix export command running aseprite multiple times"
+git push
+z aseprite scripts
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx angler_imp.lua
+z wyrdir
+hx .
+git status
+git add .
+git commit -m "fix wrong aseprite output"
+git push
+z aseprite scripts
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+z wyrdir
+cargo install --path wyrdir-cli/
+z aseprite scripts
+z wind anim
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/void-dive.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+hx .
+git status
+WYRDIR_LOG=debug wyrdir-cli export husk/v2/pipelines/walk-turn.ron -o husk/v2/renders/walk-turn/walk-turn.aseprite
+y
+git status
+git add .
+git commit -m "husk: export walk turn"
+git status
+gita add .
+git add .
+git commit -m "rewrite angler_imp.lua"
+git push
+git push
+y
+z windlight
+git status
+hx .
+git diff player.gd
+lazygit
+git restore characters/player/player.gd
+git status
+hx .
+paru -S osu-lazer
+rivalcfg
+rivalcfg --help
+rivalcfg -p 
+rivalcfg -s
+rivalcfg -s 800
+rivalcfg -s 700
+rivalcfg -s 100
+rivalcfg -s 400
+rivalcfg -s 600
+rivalcfg -s 800
+ls
+zi windlight
+git status
+hx .
+git status
+git add .
+git commit -m "husk: add walk turning"
+git push
+hx .
+git status
+git diff
+git add .
+git commit -m "husk: less aggressive idle transition"
+git push
+tmux
+fc
+history
+sudo pacman -S fc
+zsh
+bash
+paru -S zsh zsh-completions
+zsh
+zsh 
+echo $env.SHELL
+exit
+clear
+exit
+hx .
+exit

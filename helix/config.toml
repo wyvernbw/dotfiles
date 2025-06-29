@@ -1,0 +1,19 @@
+# ~/.config/helix/config.toml
+# theme = "rose_pine_moon_transparent"
+theme = "base16_terminal"
+
+[keys.normal]
+S-j = "goto_next_paragraph"
+S-k = "goto_prev_paragraph"
+Meta-space = "command_palette"
+
+[editor]
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "hint"
+
+[editor.file-picker]
+# show hidden files. `true` hides hidden files (very intuitive).
+hidden = false

@@ -1,0 +1,11 @@
+[[language]]
+name = "nu"
+auto-format = false
+
+[language-server.godot]
+command = "ncat" 
+args = [ "127.0.0.1", "6008"]
+
+[[language]]
+name = "gdscript"
+language-servers = [ "godot" ]
