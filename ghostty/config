@@ -22,7 +22,7 @@
 
 gtk-single-instance = true
 
-font-family = Geist Mono Medium
+font-family = menlo
 font-size = 13
 adjust-cell-height = -10%
 # window-padding-x = 2
@@ -48,8 +48,9 @@ adjust-cell-height = -10%
 # resize-overlay-duration = 4s 200ms
 
 command = "zsh -i -c 'pfetch; exec zsh'"
-# theme = base-16-black-metal
-theme = "Kanagawa Dragon"
+theme = base-16-black-metal
+# theme = "Kanagawa Dragon"
+# theme = the-color-grey
 background-opacity = 0.6
 # no effect vvv
 background-blur = true
