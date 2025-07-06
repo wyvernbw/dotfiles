@@ -35,5 +35,8 @@
   "menus.transition": "crossfade",
   "theme.bar.background": "#11111b",
   "wallpaper.enable": true,
-  "bar.launcher.autoDetectIcon": true
+  "bar.launcher.autoDetectIcon": true,
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }
