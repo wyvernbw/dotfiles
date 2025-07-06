@@ -67,3 +67,21 @@ wal
 waybar
 yay
 zellij
+
+# mac
+.DS_Store
+Battle.net/
+alacritty/
+doom/
+emacs-backup/
+emacs/
+github-copilot/
+gmic/
+helix/themes/github_dark_transparent.toml
+nvim/
+raycast/
+sketchybar/
+starship.toml
+swiftpm/
+topiary/
+zed/
