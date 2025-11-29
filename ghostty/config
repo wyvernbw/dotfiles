@@ -47,8 +47,9 @@ adjust-cell-height = -10%
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-command = "zsh -i -c 'pfetch; exec zsh'"
+command = "zsh -i -c ~/.config/ghostty/start-tmux.sh"
 theme = base-16-black-metal
+# theme="/home/calinp/.cache/wal/colors-ghostty"
 # theme = "Kanagawa Dragon"
 # theme = the-color-grey
 background-opacity = 0.6

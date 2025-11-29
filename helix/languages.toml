@@ -9,3 +9,18 @@ args = [ "127.0.0.1", "6008"]
 [[language]]
 name = "gdscript"
 language-servers = [ "godot" ]
+
+[[ language ]]
+name = "c-sharp"
+language-servers = [ "csharp-ls" ]
+formatter = { command = "dotnet", args = ["format", "."] }
+
+[language-server.csharp-ls]
+command = "csharp-ls"
+
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
+[language-server.rust-analyzer.config.cargo]
+features = "all"

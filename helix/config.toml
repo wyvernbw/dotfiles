@@ -6,6 +6,7 @@ theme = "base16_terminal"
 S-j = "goto_next_paragraph"
 S-k = "goto_prev_paragraph"
 Meta-space = "command_palette"
+C-S-o = ["insert_mode", "insert_newline", "normal_mode"]
 
 # [editor]
 # end-of-line-diagnostics = "hint"
